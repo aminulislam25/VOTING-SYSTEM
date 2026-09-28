@@ -1,0 +1,1808 @@
+[16-Mar-2025 04:36:38 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'admin_name' in 'field list' in C:\xampp\htdocs\vote\create_temp_admin.php:90
+Stack trace:
+#0 C:\xampp\htdocs\vote\create_temp_admin.php(90): mysqli_query(Object(mysqli), 'INSERT INTO adm...')
+#1 {main}
+  thrown in C:\xampp\htdocs\vote\create_temp_admin.php on line 90
+[16-Mar-2025 04:37:39 Europe/Berlin] === New Login Attempt ===
+[16-Mar-2025 04:37:39 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: admin123
+[16-Mar-2025 04:37:39 Europe/Berlin] Querying table: admins
+[16-Mar-2025 04:37:39 Europe/Berlin] Query result rows: 0
+[16-Mar-2025 04:37:39 Europe/Berlin] No user found with mobile/ID: admin123
+[16-Mar-2025 04:37:39 Europe/Berlin] Login error: User not found
+[16-Mar-2025 04:41:37 Europe/Berlin] === New Login Attempt ===
+[16-Mar-2025 04:41:37 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: admin123
+[16-Mar-2025 04:41:37 Europe/Berlin] Querying table: admins
+[16-Mar-2025 04:41:37 Europe/Berlin] Query result rows: 1
+[16-Mar-2025 04:41:37 Europe/Berlin] Found user: {"id":1,"admin_name":"Temporary Admin","college":"Demo College","address":"Demo Address","email":"admin@example.com","mobile":"admin123","password":"admin@123","created_at":"2025-03-16 09:10:52"}
+[16-Mar-2025 04:41:37 Europe/Berlin] Checking admin credentials - Input password: admin@123, Stored password: admin@123
+[16-Mar-2025 04:41:37 Europe/Berlin] Admin login successful - ID: 1
+[16-Mar-2025 04:44:27 Europe/Berlin] === New Login Attempt ===
+[16-Mar-2025 04:44:27 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: admin123
+[16-Mar-2025 04:44:27 Europe/Berlin] Querying table: admins
+[16-Mar-2025 04:44:27 Europe/Berlin] Query result rows: 1
+[16-Mar-2025 04:44:27 Europe/Berlin] Found user: {"id":1,"admin_name":"Temporary Admin","college":"Demo College","address":"Demo Address","email":"admin@example.com","mobile":"admin123","password":"admin@123","created_at":"2025-03-16 09:10:52"}
+[16-Mar-2025 04:44:27 Europe/Berlin] Checking admin credentials - Input password: admin@123, Stored password: admin@123
+[16-Mar-2025 04:44:27 Europe/Berlin] Admin login successful - ID: 1
+[16-Mar-2025 04:46:01 Europe/Berlin] === New Login Attempt ===
+[16-Mar-2025 04:46:01 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: admin123
+[16-Mar-2025 04:46:01 Europe/Berlin] Querying table: admins
+[16-Mar-2025 04:46:01 Europe/Berlin] Query result rows: 1
+[16-Mar-2025 04:46:01 Europe/Berlin] Found user: {"id":1,"admin_name":"Temporary Admin","college":"Demo College","address":"Demo Address","email":"admin@example.com","mobile":"admin123","password":"admin@123","created_at":"2025-03-16 09:10:52"}
+[16-Mar-2025 04:46:01 Europe/Berlin] Checking admin credentials - Input password: admin@123, Stored password: admin@123
+[16-Mar-2025 04:46:01 Europe/Berlin] Admin login successful - ID: 1
+[16-Mar-2025 05:11:01 Europe/Berlin] === New Login Attempt ===
+[16-Mar-2025 05:11:01 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: admin123
+[16-Mar-2025 05:11:01 Europe/Berlin] Querying table: admins
+[16-Mar-2025 05:11:01 Europe/Berlin] Query result rows: 1
+[16-Mar-2025 05:11:01 Europe/Berlin] Found user: {"id":1,"admin_name":"Temporary Admin","college":"Demo College","address":"Demo Address","email":"admin@example.com","mobile":"admin123","password":"admin@123","created_at":"2025-03-16 09:10:52"}
+[16-Mar-2025 05:11:01 Europe/Berlin] Checking admin credentials - Input password: admin@123, Stored password: admin@123
+[16-Mar-2025 05:11:01 Europe/Berlin] Admin login successful - ID: 1
+[16-Mar-2025 06:09:29 Europe/Berlin] === New Login Attempt ===
+[16-Mar-2025 06:09:29 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: admin123
+[16-Mar-2025 06:09:29 Europe/Berlin] Querying table: admins
+[16-Mar-2025 06:09:29 Europe/Berlin] Query result rows: 1
+[16-Mar-2025 06:09:29 Europe/Berlin] Found user: {"id":1,"admin_name":"Temporary Admin","college":"Demo College","address":"Demo Address","email":"admin@example.com","mobile":"admin123","password":"admin@123","created_at":"2025-03-16 09:10:52"}
+[16-Mar-2025 06:09:29 Europe/Berlin] Checking admin credentials - Input password: admin@123, Stored password: admin@123
+[16-Mar-2025 06:09:29 Europe/Berlin] Admin login successful - ID: 1
+[16-Mar-2025 06:11:37 Europe/Berlin] === New Login Attempt ===
+[16-Mar-2025 06:11:37 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: example@example.com
+[16-Mar-2025 06:18:06 Europe/Berlin] === New Login Attempt ===
+[16-Mar-2025 06:18:06 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1234567890
+[16-Mar-2025 06:18:06 Europe/Berlin] Querying table: departments
+[16-Mar-2025 06:18:06 Europe/Berlin] Query result rows: 1
+[16-Mar-2025 06:18:06 Europe/Berlin] Found user: {"department_id":1,"department":"Bengali","hod_name":"Abhijit Chakraborty","hod_email":"example@example.com","hod_mobile":"1234567890","password":"$2y$10$iruCrRPizzco0JBzBUgmG.viSg7yi\/Lho8ciNJU8Tab4TZvtGY7Eq","approved":1,"created_at":"2025-03-16 10:37:14"}
+[16-Mar-2025 06:18:24 Europe/Berlin] === New Login Attempt ===
+[16-Mar-2025 06:18:24 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: example@example.com
+[16-Mar-2025 06:52:57 Europe/Berlin] === New Login Attempt ===
+[16-Mar-2025 06:52:57 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: admin123
+[16-Mar-2025 06:52:57 Europe/Berlin] Querying table: admins
+[16-Mar-2025 06:52:57 Europe/Berlin] Query result rows: 1
+[16-Mar-2025 06:52:57 Europe/Berlin] Found user: {"id":1,"admin_name":"Temporary Admin","college":"Demo College","address":"Demo Address","email":"admin@example.com","mobile":"admin123","password":"admin@123","created_at":"2025-03-16 09:10:52"}
+[16-Mar-2025 06:52:57 Europe/Berlin] Checking admin credentials - Input password: admin@123, Stored password: admin@123
+[16-Mar-2025 06:52:57 Europe/Berlin] Admin login successful - ID: 1
+[16-Mar-2025 07:15:07 Europe/Berlin] === New Login Attempt ===
+[16-Mar-2025 07:15:07 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: admin123
+[16-Mar-2025 07:15:07 Europe/Berlin] Querying table: admins
+[16-Mar-2025 07:15:07 Europe/Berlin] Query result rows: 1
+[16-Mar-2025 07:15:07 Europe/Berlin] Found user: {"id":1,"admin_name":"Temporary Admin","college":"Demo College","address":"Demo Address","email":"admin@example.com","mobile":"admin123","password":"admin@123","created_at":"2025-03-16 09:10:52"}
+[16-Mar-2025 07:15:07 Europe/Berlin] Checking admin credentials - Input password: admin@123, Stored password: admin@123
+[16-Mar-2025 07:15:07 Europe/Berlin] Admin login successful - ID: 1
+[16-Mar-2025 07:15:23 Europe/Berlin] === New Login Attempt ===
+[16-Mar-2025 07:15:23 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1234567890
+[16-Mar-2025 07:15:23 Europe/Berlin] Querying table: departments
+[16-Mar-2025 07:15:23 Europe/Berlin] Query result rows: 1
+[16-Mar-2025 07:15:23 Europe/Berlin] Found user: {"department_id":1,"department":"Bengali","hod_name":"Abhijit Chakraborty","hod_email":"example@example.com","hod_mobile":"1234567890","password":"$2y$10$iruCrRPizzco0JBzBUgmG.viSg7yi\/Lho8ciNJU8Tab4TZvtGY7Eq","approved":1,"created_at":"2025-03-16 10:37:14"}
+[16-Mar-2025 07:17:34 Europe/Berlin] === New Login Attempt ===
+[16-Mar-2025 07:17:34 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1234567890
+[16-Mar-2025 07:17:34 Europe/Berlin] Querying table: departments
+[16-Mar-2025 07:17:34 Europe/Berlin] Query result rows: 1
+[16-Mar-2025 07:17:34 Europe/Berlin] Found user: {"department_id":1,"department":"Bengali","hod_name":"Abhijit Chakraborty","hod_email":"example@example.com","hod_mobile":"1234567890","password":"$2y$10$iruCrRPizzco0JBzBUgmG.viSg7yi\/Lho8ciNJU8Tab4TZvtGY7Eq","approved":1,"created_at":"2025-03-16 10:37:14"}
+[16-Mar-2025 07:17:53 Europe/Berlin] === New Login Attempt ===
+[16-Mar-2025 07:17:53 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1234567890
+[16-Mar-2025 07:17:53 Europe/Berlin] Querying table: departments
+[16-Mar-2025 07:17:53 Europe/Berlin] Query result rows: 1
+[16-Mar-2025 07:17:53 Europe/Berlin] Found user: {"department_id":1,"department":"Bengali","hod_name":"Abhijit Chakraborty","hod_email":"example@example.com","hod_mobile":"1234567890","password":"$2y$10$iruCrRPizzco0JBzBUgmG.viSg7yi\/Lho8ciNJU8Tab4TZvtGY7Eq","approved":1,"created_at":"2025-03-16 10:37:14"}
+[16-Mar-2025 07:19:59 Europe/Berlin] === New Login Attempt ===
+[16-Mar-2025 07:19:59 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1234567890
+[16-Mar-2025 07:19:59 Europe/Berlin] Querying table: departments
+[16-Mar-2025 07:19:59 Europe/Berlin] Query result rows: 1
+[16-Mar-2025 07:19:59 Europe/Berlin] Found user: {"department_id":1,"department":"Bengali","hod_name":"Abhijit Chakraborty","hod_email":"example@example.com","hod_mobile":"1234567890","password":"$2y$10$iruCrRPizzco0JBzBUgmG.viSg7yi\/Lho8ciNJU8Tab4TZvtGY7Eq","approved":1,"created_at":"2025-03-16 10:37:14"}
+[16-Mar-2025 07:19:59 Europe/Berlin] Password verification failed
+[16-Mar-2025 07:19:59 Europe/Berlin] Login error: Invalid password
+[16-Mar-2025 07:20:11 Europe/Berlin] === New Login Attempt ===
+[16-Mar-2025 07:20:11 Europe/Berlin] Login attempt - User Type: voter, User ID/Mobile: 1234567890
+[16-Mar-2025 07:20:11 Europe/Berlin] Querying table: voters
+[16-Mar-2025 07:20:11 Europe/Berlin] Query result rows: 0
+[16-Mar-2025 07:20:11 Europe/Berlin] No user found with mobile/ID: 1234567890
+[16-Mar-2025 07:20:11 Europe/Berlin] Login error: User not found
+[16-Mar-2025 07:20:31 Europe/Berlin] === New Login Attempt ===
+[16-Mar-2025 07:20:31 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1234567890
+[16-Mar-2025 07:20:31 Europe/Berlin] Querying table: departments
+[16-Mar-2025 07:20:31 Europe/Berlin] Query result rows: 1
+[16-Mar-2025 07:20:31 Europe/Berlin] Found user: {"department_id":1,"department":"Bengali","hod_name":"Abhijit Chakraborty","hod_email":"example@example.com","hod_mobile":"1234567890","password":"$2y$10$iruCrRPizzco0JBzBUgmG.viSg7yi\/Lho8ciNJU8Tab4TZvtGY7Eq","approved":1,"created_at":"2025-03-16 10:37:14"}
+[16-Mar-2025 07:21:46 Europe/Berlin] === New Login Attempt ===
+[16-Mar-2025 07:21:46 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: admin123
+[16-Mar-2025 07:21:46 Europe/Berlin] Querying table: admins
+[16-Mar-2025 07:21:46 Europe/Berlin] Query result rows: 1
+[16-Mar-2025 07:21:46 Europe/Berlin] Found user: {"id":1,"admin_name":"Temporary Admin","college":"Demo College","address":"Demo Address","email":"admin@example.com","mobile":"admin123","password":"admin@123","created_at":"2025-03-16 09:10:52"}
+[16-Mar-2025 07:21:46 Europe/Berlin] Checking admin credentials - Input password: admin@123, Stored password: admin@123
+[16-Mar-2025 07:21:46 Europe/Berlin] Admin login successful - ID: 1
+[16-Mar-2025 07:32:16 Europe/Berlin] === New Login Attempt ===
+[16-Mar-2025 07:32:16 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: admin123
+[16-Mar-2025 07:32:16 Europe/Berlin] Querying table: admins
+[16-Mar-2025 07:32:16 Europe/Berlin] Query result rows: 1
+[16-Mar-2025 07:32:16 Europe/Berlin] Found user: {"id":1,"admin_name":"Temporary Admin","college":"Demo College","address":"Demo Address","email":"admin@example.com","mobile":"admin123","password":"admin@123","created_at":"2025-03-16 09:10:52"}
+[16-Mar-2025 07:32:16 Europe/Berlin] Checking admin credentials - Input password: admin@123, Stored password: admin@123
+[16-Mar-2025 07:32:16 Europe/Berlin] Admin login successful - ID: 1
+[16-Mar-2025 07:35:11 Europe/Berlin] === New Login Attempt ===
+[16-Mar-2025 07:35:11 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: admin123
+[16-Mar-2025 07:35:11 Europe/Berlin] Querying table: admins
+[16-Mar-2025 07:35:11 Europe/Berlin] Query result rows: 1
+[16-Mar-2025 07:35:11 Europe/Berlin] Found user: {"id":1,"admin_name":"Temporary Admin","college":"Demo College","address":"Demo Address","email":"admin@example.com","mobile":"admin123","password":"admin@123","created_at":"2025-03-16 09:10:52"}
+[16-Mar-2025 07:35:11 Europe/Berlin] Checking admin credentials - Input password: admin@123, Stored password: admin@123
+[16-Mar-2025 07:35:11 Europe/Berlin] Admin login successful - ID: 1
+[16-Mar-2025 07:36:19 Europe/Berlin] === New Login Attempt ===
+[16-Mar-2025 07:36:19 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: admin123
+[16-Mar-2025 07:36:19 Europe/Berlin] Querying table: admins
+[16-Mar-2025 07:36:19 Europe/Berlin] Query result rows: 1
+[16-Mar-2025 07:36:19 Europe/Berlin] Found user: {"id":1,"admin_name":"Temporary Admin","college":"Demo College","address":"Demo Address","email":"admin@example.com","mobile":"admin123","password":"admin@123","created_at":"2025-03-16 09:10:52"}
+[16-Mar-2025 07:36:19 Europe/Berlin] Checking admin credentials - Input password: admin@123, Stored password: admin@123
+[16-Mar-2025 07:36:19 Europe/Berlin] Admin login successful - ID: 1
+[16-Mar-2025 07:38:21 Europe/Berlin] === New Login Attempt ===
+[16-Mar-2025 07:38:21 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1234567890
+[16-Mar-2025 07:38:21 Europe/Berlin] Querying table: departments
+[16-Mar-2025 07:38:21 Europe/Berlin] Query result rows: 1
+[16-Mar-2025 07:38:21 Europe/Berlin] Found user: {"department_id":1,"department":"Bengali","hod_name":"Abhijit Chakraborty","hod_email":"example@example.com","hod_mobile":"1234567890","password":"$2y$10$iruCrRPizzco0JBzBUgmG.viSg7yi\/Lho8ciNJU8Tab4TZvtGY7Eq","approved":1,"created_at":"2025-03-16 10:37:14"}
+[16-Mar-2025 08:39:31 Europe/Berlin] === New Login Attempt ===
+[16-Mar-2025 08:39:31 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: admin123
+[16-Mar-2025 08:39:31 Europe/Berlin] Querying table: admins
+[16-Mar-2025 08:39:31 Europe/Berlin] Query result rows: 1
+[16-Mar-2025 08:39:31 Europe/Berlin] Found user: {"id":1,"admin_name":"Temporary Admin","college":"Demo College","address":"Demo Address","email":"admin@example.com","mobile":"admin123","password":"admin@123","created_at":"2025-03-16 09:10:52"}
+[16-Mar-2025 08:39:31 Europe/Berlin] Checking admin credentials - Input password: admin@123, Stored password: admin@123
+[16-Mar-2025 08:39:31 Europe/Berlin] Admin login successful - ID: 1
+[16-Mar-2025 08:40:55 Europe/Berlin] === New Login Attempt ===
+[16-Mar-2025 08:40:55 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1234567890
+[16-Mar-2025 08:40:55 Europe/Berlin] Querying table: departments
+[16-Mar-2025 08:40:55 Europe/Berlin] Query result rows: 1
+[16-Mar-2025 08:40:55 Europe/Berlin] Found user: {"department_id":1,"department":"Bengali","hod_name":"Abhijit Chakraborty","hod_email":"example@example.com","hod_mobile":"1234567890","password":"$2y$10$iruCrRPizzco0JBzBUgmG.viSg7yi\/Lho8ciNJU8Tab4TZvtGY7Eq","approved":1,"created_at":"2025-03-16 10:37:14"}
+[16-Mar-2025 08:43:39 Europe/Berlin] === New Login Attempt ===
+[16-Mar-2025 08:43:39 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[16-Mar-2025 08:43:39 Europe/Berlin] Querying table: admins
+[16-Mar-2025 08:43:39 Europe/Berlin] Query result rows: 0
+[16-Mar-2025 08:43:39 Europe/Berlin] No user found with mobile/ID: 1234567890
+[16-Mar-2025 08:43:39 Europe/Berlin] Login error: User not found
+[16-Mar-2025 08:43:58 Europe/Berlin] === New Login Attempt ===
+[16-Mar-2025 08:43:58 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: admin123
+[16-Mar-2025 08:43:58 Europe/Berlin] Querying table: admins
+[16-Mar-2025 08:43:58 Europe/Berlin] Query result rows: 1
+[16-Mar-2025 08:43:58 Europe/Berlin] Found user: {"id":1,"admin_name":"Temporary Admin","college":"Demo College","address":"Demo Address","email":"admin@example.com","mobile":"admin123","password":"admin@123","created_at":"2025-03-16 09:10:52"}
+[16-Mar-2025 08:43:58 Europe/Berlin] Checking admin credentials - Input password: admin@123, Stored password: admin@123
+[16-Mar-2025 08:43:58 Europe/Berlin] Admin login successful - ID: 1
+[16-Mar-2025 08:44:43 Europe/Berlin] === New Login Attempt ===
+[16-Mar-2025 08:44:43 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: ar@gmail.com
+[16-Mar-2025 08:44:49 Europe/Berlin] === New Login Attempt ===
+[16-Mar-2025 08:44:49 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: ar@gmail.com
+[16-Mar-2025 08:45:02 Europe/Berlin] === New Login Attempt ===
+[16-Mar-2025 08:45:02 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1234554321
+[16-Mar-2025 08:45:02 Europe/Berlin] Querying table: departments
+[16-Mar-2025 08:45:02 Europe/Berlin] Query result rows: 1
+[16-Mar-2025 08:45:02 Europe/Berlin] Found user: {"department_id":2,"department":"Computer Science & Application","hod_name":"Ananya Roy","hod_email":"ar@gmail.com","hod_mobile":"1234554321","password":"$2y$10$m1ZwrG0HUESjZZN4NtJC6ecWzRwOBEr1zLyfUPM7cgBok59R93u1O","approved":1,"created_at":"2025-03-16 13:12:44"}
+[16-Mar-2025 08:48:34 Europe/Berlin] === New Login Attempt ===
+[16-Mar-2025 08:48:34 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: admin123
+[16-Mar-2025 08:48:34 Europe/Berlin] Querying table: admins
+[16-Mar-2025 08:48:34 Europe/Berlin] Query result rows: 1
+[16-Mar-2025 08:48:34 Europe/Berlin] Found user: {"id":1,"admin_name":"Preceding Officer","college":"Karimganj College","address":"Karimganj","email":"admin@example.com","mobile":"admin123","password":"admin@123","created_at":"2025-03-16 09:10:52"}
+[16-Mar-2025 08:48:34 Europe/Berlin] Checking admin credentials - Input password: admin@123, Stored password: admin@123
+[16-Mar-2025 08:48:34 Europe/Berlin] Admin login successful - ID: 1
+[16-Mar-2025 08:50:22 Europe/Berlin] === New Login Attempt ===
+[16-Mar-2025 08:50:22 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: admin123
+[16-Mar-2025 08:50:22 Europe/Berlin] Querying table: admins
+[16-Mar-2025 08:50:22 Europe/Berlin] Query result rows: 1
+[16-Mar-2025 08:50:22 Europe/Berlin] Found user: {"id":1,"admin_name":"Preceding Officer","college":"Karimganj College","address":"Karimganj","email":"admin@example.com","mobile":"admin123","password":"admin@123","created_at":"2025-03-16 09:10:52"}
+[16-Mar-2025 08:50:22 Europe/Berlin] Checking admin credentials - Input password: admin@123, Stored password: admin@123
+[16-Mar-2025 08:50:22 Europe/Berlin] Admin login successful - ID: 1
+[19-Mar-2025 10:27:23 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 10:27:23 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1234567890
+[19-Mar-2025 10:27:23 Europe/Berlin] Querying table: departments
+[19-Mar-2025 10:27:23 Europe/Berlin] Query result rows: 1
+[19-Mar-2025 10:27:23 Europe/Berlin] Found user: {"department_id":1,"department":"Bengali","hod_name":"Abhijit Chakraborty","hod_email":"example@example.com","hod_mobile":"1234567890","password":"$2y$10$iruCrRPizzco0JBzBUgmG.viSg7yi\/Lho8ciNJU8Tab4TZvtGY7Eq","approved":1,"created_at":"2025-03-16 10:37:14"}
+[19-Mar-2025 10:27:40 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 10:27:40 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: admin123
+[19-Mar-2025 10:27:40 Europe/Berlin] Querying table: admins
+[19-Mar-2025 10:27:40 Europe/Berlin] Query result rows: 1
+[19-Mar-2025 10:27:40 Europe/Berlin] Found user: {"id":1,"admin_name":"Preceding Officer","college":"Karimganj College","address":"Karimganj","email":"admin@example.com","mobile":"admin123","password":"admin@123","created_at":"2025-03-16 09:10:52"}
+[19-Mar-2025 10:27:40 Europe/Berlin] Checking admin credentials - Input password: admin@123, Stored password: admin@123
+[19-Mar-2025 10:27:40 Europe/Berlin] Admin login successful - ID: 1
+[19-Mar-2025 10:39:48 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 10:39:48 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1234567890
+[19-Mar-2025 10:39:48 Europe/Berlin] Querying table: departments
+[19-Mar-2025 10:39:48 Europe/Berlin] Query result rows: 1
+[19-Mar-2025 10:39:48 Europe/Berlin] Found user: {"department_id":1,"department":"Bengali","hod_name":"Abhijit Chakraborty","hod_email":"example@example.com","hod_mobile":"1234567890","password":"$2y$10$iruCrRPizzco0JBzBUgmG.viSg7yi\/Lho8ciNJU8Tab4TZvtGY7Eq","approved":1,"created_at":"2025-03-16 10:37:14"}
+[19-Mar-2025 10:56:53 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 10:56:53 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1111111111
+[19-Mar-2025 10:56:53 Europe/Berlin] Querying table: departments
+[19-Mar-2025 10:56:53 Europe/Berlin] Query result rows: 1
+[19-Mar-2025 10:56:53 Europe/Berlin] Found user: {"department_id":3,"department":"English","hod_name":"Sudip Sinha","hod_email":"a@a.com","hod_mobile":"1111111111","password":"$2y$10$zgSsqpMqE91tJfPar4ulBeN\/k3SFeiZYjUv58NoxIeAlqYzIMrpR2","approved":0,"created_at":"2025-03-19 15:26:07"}
+[19-Mar-2025 10:56:53 Europe/Berlin] Department not approved: 3
+[19-Mar-2025 10:56:53 Europe/Berlin] Login error: Your department account is pending approval by the administrator.
+[19-Mar-2025 10:56:56 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 10:56:56 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: admin123
+[19-Mar-2025 10:56:56 Europe/Berlin] Querying table: admins
+[19-Mar-2025 10:56:56 Europe/Berlin] Query result rows: 1
+[19-Mar-2025 10:56:56 Europe/Berlin] Found user: {"id":1,"admin_name":"Preceding Officer","college":"Karimganj College","address":"Karimganj","email":"admin@example.com","mobile":"admin123","password":"admin@123","created_at":"2025-03-16 09:10:52"}
+[19-Mar-2025 10:56:56 Europe/Berlin] Checking admin credentials - Input password: admin@123, Stored password: admin@123
+[19-Mar-2025 10:56:56 Europe/Berlin] Admin login successful - ID: 1
+[19-Mar-2025 11:26:56 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 11:26:56 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: admin123
+[19-Mar-2025 11:26:56 Europe/Berlin] Querying table: admins
+[19-Mar-2025 11:26:56 Europe/Berlin] Query result rows: 1
+[19-Mar-2025 11:26:56 Europe/Berlin] Found user: {"id":1,"admin_name":"Preceding Officer","college":"Karimganj College","address":"Karimganj","email":"admin@example.com","mobile":"admin123","password":"admin@123","created_at":"2025-03-16 09:10:52"}
+[19-Mar-2025 11:26:56 Europe/Berlin] Checking admin credentials - Input password: admin@123, Stored password: admin@123
+[19-Mar-2025 11:26:56 Europe/Berlin] Admin login successful - ID: 1
+[19-Mar-2025 11:38:14 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 11:38:14 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1111111111
+[19-Mar-2025 11:38:14 Europe/Berlin] Querying table: departments
+[19-Mar-2025 11:38:14 Europe/Berlin] Query result rows: 1
+[19-Mar-2025 11:38:14 Europe/Berlin] Found user: {"department_id":3,"department":"English","hod_name":"Sudip Sinha","hod_email":"a@a.com","hod_mobile":"1111111111","password":"$2y$10$zgSsqpMqE91tJfPar4ulBeN\/k3SFeiZYjUv58NoxIeAlqYzIMrpR2","approved":1,"created_at":"2025-03-19 15:26:07"}
+[19-Mar-2025 11:40:38 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 11:40:38 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1111111111
+[19-Mar-2025 11:40:38 Europe/Berlin] Querying table: departments
+[19-Mar-2025 11:40:38 Europe/Berlin] Query result rows: 1
+[19-Mar-2025 11:40:38 Europe/Berlin] Found user: {"department_id":3,"department":"English","hod_name":"Sudip Sinha","hod_email":"a@a.com","hod_mobile":"1111111111","password":"$2y$10$zgSsqpMqE91tJfPar4ulBeN\/k3SFeiZYjUv58NoxIeAlqYzIMrpR2","approved":1,"created_at":"2025-03-19 15:26:07"}
+[19-Mar-2025 11:57:02 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 11:57:02 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 3333333333
+[19-Mar-2025 11:57:02 Europe/Berlin] Querying table: students
+[19-Mar-2025 11:57:02 Europe/Berlin] Login error: Table 'voting_system.students' doesn't exist
+[19-Mar-2025 12:00:15 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:00:15 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 3333333333
+[19-Mar-2025 12:00:15 Europe/Berlin] Querying table: students
+[19-Mar-2025 12:00:15 Europe/Berlin] Login error: Table 'voting_system.students' doesn't exist
+[19-Mar-2025 12:00:17 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:00:17 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 3333333333
+[19-Mar-2025 12:00:17 Europe/Berlin] Querying table: students
+[19-Mar-2025 12:00:17 Europe/Berlin] Login error: Table 'voting_system.students' doesn't exist
+[19-Mar-2025 12:03:38 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:03:38 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 3333333333
+[19-Mar-2025 12:03:38 Europe/Berlin] Querying table: students
+[19-Mar-2025 12:03:38 Europe/Berlin] Query result rows: 0
+[19-Mar-2025 12:03:38 Europe/Berlin] No user found with mobile/ID: 3333333333
+[19-Mar-2025 12:03:38 Europe/Berlin] Login error: User not found
+[19-Mar-2025 12:10:16 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:10:16 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 3333333333
+[19-Mar-2025 12:10:16 Europe/Berlin] Querying table: departments
+[19-Mar-2025 12:10:16 Europe/Berlin] Query result rows: 0
+[19-Mar-2025 12:10:16 Europe/Berlin] No user found with mobile/ID: 3333333333
+[19-Mar-2025 12:10:16 Europe/Berlin] Login error: User not found
+[19-Mar-2025 12:10:19 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:10:19 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 1111111111
+[19-Mar-2025 12:10:19 Europe/Berlin] Querying table: students
+[19-Mar-2025 12:10:19 Europe/Berlin] Query result rows: 0
+[19-Mar-2025 12:10:19 Europe/Berlin] No user found with mobile/ID: 1111111111
+[19-Mar-2025 12:10:19 Europe/Berlin] Login error: User not found
+[19-Mar-2025 12:10:23 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:10:23 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 1234567890
+[19-Mar-2025 12:10:23 Europe/Berlin] Querying table: students
+[19-Mar-2025 12:10:23 Europe/Berlin] Query result rows: 0
+[19-Mar-2025 12:10:23 Europe/Berlin] No user found with mobile/ID: 1234567890
+[19-Mar-2025 12:10:23 Europe/Berlin] Login error: User not found
+[19-Mar-2025 12:10:27 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:10:27 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1111111111
+[19-Mar-2025 12:10:27 Europe/Berlin] Querying table: departments
+[19-Mar-2025 12:10:27 Europe/Berlin] Query result rows: 1
+[19-Mar-2025 12:10:27 Europe/Berlin] Found user: {"department_id":3,"department":"English","hod_name":"Sudip Sinha","hod_email":"a@a.com","hod_mobile":"1111111111","password":"$2y$10$zgSsqpMqE91tJfPar4ulBeN\/k3SFeiZYjUv58NoxIeAlqYzIMrpR2","approved":1,"created_at":"2025-03-19 15:26:07"}
+[19-Mar-2025 12:10:44 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:10:44 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1234567890
+[19-Mar-2025 12:10:44 Europe/Berlin] Querying table: departments
+[19-Mar-2025 12:10:44 Europe/Berlin] Query result rows: 1
+[19-Mar-2025 12:10:44 Europe/Berlin] Found user: {"department_id":1,"department":"Bengali","hod_name":"Abhijit Chakraborty","hod_email":"example@example.com","hod_mobile":"1234567890","password":"$2y$10$iruCrRPizzco0JBzBUgmG.viSg7yi\/Lho8ciNJU8Tab4TZvtGY7Eq","approved":1,"created_at":"2025-03-16 10:37:14"}
+[19-Mar-2025 12:12:55 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:12:55 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1111111111
+[19-Mar-2025 12:12:55 Europe/Berlin] Querying table: departments
+[19-Mar-2025 12:12:55 Europe/Berlin] Query result rows: 1
+[19-Mar-2025 12:12:55 Europe/Berlin] Found user: {"department_id":3,"department":"English","hod_name":"Sudip Sinha","hod_email":"a@a.com","hod_mobile":"1111111111","password":"$2y$10$zgSsqpMqE91tJfPar4ulBeN\/k3SFeiZYjUv58NoxIeAlqYzIMrpR2","approved":1,"created_at":"2025-03-19 15:26:07"}
+[19-Mar-2025 12:13:40 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:13:40 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 1111111111
+[19-Mar-2025 12:13:40 Europe/Berlin] Querying table: students
+[19-Mar-2025 12:13:40 Europe/Berlin] Query result rows: 0
+[19-Mar-2025 12:13:40 Europe/Berlin] No user found with mobile/ID: 1111111111
+[19-Mar-2025 12:13:40 Europe/Berlin] Login error: User not found
+[19-Mar-2025 12:13:43 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:13:43 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 3333333333
+[19-Mar-2025 12:13:43 Europe/Berlin] Querying table: students
+[19-Mar-2025 12:13:43 Europe/Berlin] Query result rows: 0
+[19-Mar-2025 12:13:43 Europe/Berlin] No user found with mobile/ID: 3333333333
+[19-Mar-2025 12:13:43 Europe/Berlin] Login error: User not found
+[19-Mar-2025 12:13:46 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:13:46 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 4444444444
+[19-Mar-2025 12:13:46 Europe/Berlin] Querying table: students
+[19-Mar-2025 12:13:46 Europe/Berlin] Query result rows: 0
+[19-Mar-2025 12:13:46 Europe/Berlin] No user found with mobile/ID: 4444444444
+[19-Mar-2025 12:13:46 Europe/Berlin] Login error: User not found
+[19-Mar-2025 12:13:51 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:13:51 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 4444444444
+[19-Mar-2025 12:13:51 Europe/Berlin] Querying table: students
+[19-Mar-2025 12:13:51 Europe/Berlin] Query result rows: 0
+[19-Mar-2025 12:13:51 Europe/Berlin] No user found with mobile/ID: 4444444444
+[19-Mar-2025 12:13:51 Europe/Berlin] Login error: User not found
+[19-Mar-2025 12:20:05 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:20:05 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 3333333333
+[19-Mar-2025 12:20:05 Europe/Berlin] Querying table: students
+[19-Mar-2025 12:20:05 Europe/Berlin] Query result rows: 1
+[19-Mar-2025 12:20:05 Europe/Berlin] Found user: {"student_id":1,"first_name":"Rahul","last_name":"Roy","registration_no":"3333","class_roll":"3333","department":"Bengali","session":"2025-2026","email":"c@c.com","mobile":"3333333333","password":"$2y$10$mcOvqaRUXP1RLKzoARfVUuLVFV388Lh71UsDcidG2p1Ad.WBi7Zxa","status":"active","approved":1,"created_at":"2025-03-19 16:33:14","updated_at":"2025-03-19 16:41:13"}
+[19-Mar-2025 12:20:59 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:20:59 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1111111111
+[19-Mar-2025 12:20:59 Europe/Berlin] Querying table: departments
+[19-Mar-2025 12:20:59 Europe/Berlin] Login error: No data supplied for parameters in prepared statement
+[19-Mar-2025 12:21:04 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:21:04 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1111111111
+[19-Mar-2025 12:21:04 Europe/Berlin] Querying table: departments
+[19-Mar-2025 12:21:04 Europe/Berlin] Login error: No data supplied for parameters in prepared statement
+[19-Mar-2025 12:21:13 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:21:13 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 4444444444
+[19-Mar-2025 12:21:13 Europe/Berlin] Querying table: departments
+[19-Mar-2025 12:21:13 Europe/Berlin] Login error: No data supplied for parameters in prepared statement
+[19-Mar-2025 12:21:23 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:21:23 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1234567890
+[19-Mar-2025 12:21:23 Europe/Berlin] Querying table: departments
+[19-Mar-2025 12:21:23 Europe/Berlin] Login error: No data supplied for parameters in prepared statement
+[19-Mar-2025 12:21:29 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:21:29 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 3333333333
+[19-Mar-2025 12:21:29 Europe/Berlin] Querying table: departments
+[19-Mar-2025 12:21:29 Europe/Berlin] Login error: No data supplied for parameters in prepared statement
+[19-Mar-2025 12:21:36 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:21:36 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 3333333333
+[19-Mar-2025 12:21:36 Europe/Berlin] Querying table: departments
+[19-Mar-2025 12:21:36 Europe/Berlin] Login error: No data supplied for parameters in prepared statement
+[19-Mar-2025 12:21:52 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:21:52 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1234567890
+[19-Mar-2025 12:21:52 Europe/Berlin] Querying table: departments
+[19-Mar-2025 12:21:52 Europe/Berlin] Login error: No data supplied for parameters in prepared statement
+[19-Mar-2025 12:22:09 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:22:09 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1234567890
+[19-Mar-2025 12:22:09 Europe/Berlin] Querying table: departments
+[19-Mar-2025 12:22:09 Europe/Berlin] Login error: No data supplied for parameters in prepared statement
+[19-Mar-2025 12:22:10 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:22:10 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 4444444444
+[19-Mar-2025 12:22:10 Europe/Berlin] Querying table: students
+[19-Mar-2025 12:22:10 Europe/Berlin] Query result rows: 1
+[19-Mar-2025 12:22:10 Europe/Berlin] Found user: {"student_id":2,"first_name":"Rahul","last_name":"Das","registration_no":"4444","class_roll":"4444","department":"English","session":"2023-2024","email":"d@d.com","mobile":"4444444444","password":"$2y$10$elZu.dUFNO8uC9247QJ7Ke5f1kLUGUaJJQ0CeIyQGTYnQNCSDEhl6","status":"active","approved":1,"created_at":"2025-03-19 16:42:31","updated_at":"2025-03-19 16:43:12"}
+[19-Mar-2025 12:28:52 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:28:52 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1111111111
+[19-Mar-2025 12:28:52 Europe/Berlin] Querying table: departments
+[19-Mar-2025 12:28:52 Europe/Berlin] Login error: Unknown column 'mobile' in 'where clause'
+[19-Mar-2025 12:29:19 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:29:19 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1111111111
+[19-Mar-2025 12:29:19 Europe/Berlin] Querying table: departments
+[19-Mar-2025 12:29:19 Europe/Berlin] Query result rows: 1
+[19-Mar-2025 12:29:19 Europe/Berlin] Found user: {"department_id":3,"department":"English","hod_name":"Sudip Sinha","hod_email":"a@a.com","hod_mobile":"1111111111","password":"$2y$10$zgSsqpMqE91tJfPar4ulBeN\/k3SFeiZYjUv58NoxIeAlqYzIMrpR2","approved":1,"created_at":"2025-03-19 15:26:07"}
+[19-Mar-2025 12:29:38 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:29:38 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 3333333333
+[19-Mar-2025 12:29:38 Europe/Berlin] Querying table: students
+[19-Mar-2025 12:29:38 Europe/Berlin] Query result rows: 1
+[19-Mar-2025 12:29:38 Europe/Berlin] Found user: {"student_id":1,"first_name":"Rahul","last_name":"Roy","registration_no":"3333","class_roll":"3333","department":"Bengali","session":"2025-2026","email":"c@c.com","mobile":"3333333333","password":"$2y$10$mcOvqaRUXP1RLKzoARfVUuLVFV388Lh71UsDcidG2p1Ad.WBi7Zxa","status":"active","approved":1,"created_at":"2025-03-19 16:33:14","updated_at":"2025-03-19 16:41:13"}
+[19-Mar-2025 12:29:46 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:29:46 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 4444444444
+[19-Mar-2025 12:29:46 Europe/Berlin] Querying table: students
+[19-Mar-2025 12:29:46 Europe/Berlin] Query result rows: 1
+[19-Mar-2025 12:29:46 Europe/Berlin] Found user: {"student_id":2,"first_name":"Rahul","last_name":"Das","registration_no":"4444","class_roll":"4444","department":"English","session":"2023-2024","email":"d@d.com","mobile":"4444444444","password":"$2y$10$elZu.dUFNO8uC9247QJ7Ke5f1kLUGUaJJQ0CeIyQGTYnQNCSDEhl6","status":"active","approved":1,"created_at":"2025-03-19 16:42:31","updated_at":"2025-03-19 16:43:12"}
+[19-Mar-2025 12:30:01 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:30:01 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1111111111
+[19-Mar-2025 12:30:01 Europe/Berlin] Querying table: departments
+[19-Mar-2025 12:30:01 Europe/Berlin] Query result rows: 1
+[19-Mar-2025 12:30:01 Europe/Berlin] Found user: {"department_id":3,"department":"English","hod_name":"Sudip Sinha","hod_email":"a@a.com","hod_mobile":"1111111111","password":"$2y$10$zgSsqpMqE91tJfPar4ulBeN\/k3SFeiZYjUv58NoxIeAlqYzIMrpR2","approved":1,"created_at":"2025-03-19 15:26:07"}
+[19-Mar-2025 12:30:11 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:30:11 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1234567890
+[19-Mar-2025 12:30:11 Europe/Berlin] Querying table: departments
+[19-Mar-2025 12:30:11 Europe/Berlin] Query result rows: 1
+[19-Mar-2025 12:30:11 Europe/Berlin] Found user: {"department_id":1,"department":"Bengali","hod_name":"Abhijit Chakraborty","hod_email":"example@example.com","hod_mobile":"1234567890","password":"$2y$10$iruCrRPizzco0JBzBUgmG.viSg7yi\/Lho8ciNJU8Tab4TZvtGY7Eq","approved":1,"created_at":"2025-03-16 10:37:14"}
+[19-Mar-2025 12:32:17 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:32:17 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[19-Mar-2025 12:32:17 Europe/Berlin] Querying table: admins
+[19-Mar-2025 12:32:17 Europe/Berlin] Query result rows: 0
+[19-Mar-2025 12:32:17 Europe/Berlin] No user found with mobile/ID: 1234567890
+[19-Mar-2025 12:32:17 Europe/Berlin] Login error: User not found
+[19-Mar-2025 12:32:18 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:32:18 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 1234567890
+[19-Mar-2025 12:32:18 Europe/Berlin] Querying table: students
+[19-Mar-2025 12:32:18 Europe/Berlin] Query result rows: 0
+[19-Mar-2025 12:32:18 Europe/Berlin] No user found with mobile/ID: 1234567890
+[19-Mar-2025 12:32:18 Europe/Berlin] Login error: User not found
+[19-Mar-2025 12:34:54 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:34:54 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 4444444444
+[19-Mar-2025 12:34:54 Europe/Berlin] Querying table: departments
+[19-Mar-2025 12:34:54 Europe/Berlin] Query result rows: 0
+[19-Mar-2025 12:34:54 Europe/Berlin] No user found with mobile/ID: 4444444444
+[19-Mar-2025 12:34:54 Europe/Berlin] Login error: User not found
+[19-Mar-2025 12:35:00 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:35:00 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1111111111
+[19-Mar-2025 12:35:00 Europe/Berlin] Querying table: departments
+[19-Mar-2025 12:35:00 Europe/Berlin] Query result rows: 1
+[19-Mar-2025 12:35:00 Europe/Berlin] Found user: {"department_id":3,"department":"English","hod_name":"Sudip Sinha","hod_email":"a@a.com","hod_mobile":"1111111111","password":"$2y$10$zgSsqpMqE91tJfPar4ulBeN\/k3SFeiZYjUv58NoxIeAlqYzIMrpR2","approved":1,"created_at":"2025-03-19 15:26:07"}
+[19-Mar-2025 12:37:50 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:37:50 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[19-Mar-2025 12:37:50 Europe/Berlin] Querying table: admins
+[19-Mar-2025 12:37:50 Europe/Berlin] Query result rows: 0
+[19-Mar-2025 12:37:50 Europe/Berlin] No user found with mobile/ID: 1234567890
+[19-Mar-2025 12:37:50 Europe/Berlin] Login error: User not found
+[19-Mar-2025 12:38:17 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:38:17 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[19-Mar-2025 12:38:17 Europe/Berlin] Querying table: admins
+[19-Mar-2025 12:38:17 Europe/Berlin] Query result rows: 0
+[19-Mar-2025 12:38:17 Europe/Berlin] No user found with mobile/ID: 1234567890
+[19-Mar-2025 12:38:17 Europe/Berlin] Login error: User not found
+[19-Mar-2025 12:39:58 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:39:58 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[19-Mar-2025 12:39:58 Europe/Berlin] Querying table: admins
+[19-Mar-2025 12:39:58 Europe/Berlin] Query result rows: 1
+[19-Mar-2025 12:39:58 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[19-Mar-2025 12:39:58 Europe/Berlin] Admin login successful - ID: 2
+[19-Mar-2025 12:40:14 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:40:14 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 4444444444
+[19-Mar-2025 12:40:14 Europe/Berlin] Querying table: departments
+[19-Mar-2025 12:40:14 Europe/Berlin] Query result rows: 0
+[19-Mar-2025 12:40:14 Europe/Berlin] No user found with mobile/ID: 4444444444
+[19-Mar-2025 12:40:14 Europe/Berlin] Login error: User not found
+[19-Mar-2025 12:40:23 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:40:23 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 4444444444
+[19-Mar-2025 12:40:23 Europe/Berlin] Querying table: departments
+[19-Mar-2025 12:40:23 Europe/Berlin] Query result rows: 0
+[19-Mar-2025 12:40:23 Europe/Berlin] No user found with mobile/ID: 4444444444
+[19-Mar-2025 12:40:23 Europe/Berlin] Login error: User not found
+[19-Mar-2025 12:40:27 Europe/Berlin] === New Login Attempt ===
+[19-Mar-2025 12:40:27 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1111111111
+[19-Mar-2025 12:40:27 Europe/Berlin] Querying table: departments
+[19-Mar-2025 12:40:27 Europe/Berlin] Query result rows: 1
+[19-Mar-2025 12:40:27 Europe/Berlin] Found user: {"department_id":3,"department":"English","hod_name":"Sudip Sinha","hod_email":"a@a.com","hod_mobile":"1111111111","password":"$2y$10$zgSsqpMqE91tJfPar4ulBeN\/k3SFeiZYjUv58NoxIeAlqYzIMrpR2","approved":1,"created_at":"2025-03-19 15:26:07"}
+[20-Mar-2025 12:41:21 Europe/Berlin] === New Login Attempt ===
+[20-Mar-2025 12:41:21 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[20-Mar-2025 12:41:21 Europe/Berlin] Querying table: admins
+[20-Mar-2025 12:41:21 Europe/Berlin] Query result rows: 1
+[20-Mar-2025 12:41:21 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[20-Mar-2025 12:41:21 Europe/Berlin] Admin login successful - ID: 2
+[20-Mar-2025 12:41:33 Europe/Berlin] === New Login Attempt ===
+[20-Mar-2025 12:41:33 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1111111111
+[20-Mar-2025 12:41:33 Europe/Berlin] Querying table: departments
+[20-Mar-2025 12:41:33 Europe/Berlin] Query result rows: 1
+[20-Mar-2025 12:41:33 Europe/Berlin] Found user: {"department_id":3,"department":"English","hod_name":"Sudip Sinha","hod_email":"a@a.com","hod_mobile":"1111111111","password":"$2y$10$zgSsqpMqE91tJfPar4ulBeN\/k3SFeiZYjUv58NoxIeAlqYzIMrpR2","approved":1,"created_at":"2025-03-19 15:26:07"}
+[20-Mar-2025 12:43:54 Europe/Berlin] === New Login Attempt ===
+[20-Mar-2025 12:43:54 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 8822411064
+[20-Mar-2025 12:43:54 Europe/Berlin] Querying table: students
+[20-Mar-2025 12:43:54 Europe/Berlin] Query result rows: 0
+[20-Mar-2025 12:43:54 Europe/Berlin] No user found with mobile/ID: 8822411064
+[20-Mar-2025 12:43:54 Europe/Berlin] Login error: User not found
+[20-Mar-2025 12:44:04 Europe/Berlin] === New Login Attempt ===
+[20-Mar-2025 12:44:04 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 3333333333
+[20-Mar-2025 12:44:04 Europe/Berlin] Querying table: students
+[20-Mar-2025 12:44:04 Europe/Berlin] Query result rows: 1
+[20-Mar-2025 12:44:04 Europe/Berlin] Found user: {"student_id":1,"first_name":"Rahul","last_name":"Roy","registration_no":"3333","class_roll":"3333","department":"Bengali","session":"2025-2026","email":"c@c.com","mobile":"3333333333","password":"$2y$10$mcOvqaRUXP1RLKzoARfVUuLVFV388Lh71UsDcidG2p1Ad.WBi7Zxa","status":"active","approved":1,"created_at":"2025-03-19 16:33:14","updated_at":"2025-03-19 16:41:13"}
+[20-Mar-2025 12:46:13 Europe/Berlin] === New Login Attempt ===
+[20-Mar-2025 12:46:13 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[20-Mar-2025 12:46:13 Europe/Berlin] Querying table: admins
+[20-Mar-2025 12:46:13 Europe/Berlin] Query result rows: 1
+[20-Mar-2025 12:46:13 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[20-Mar-2025 12:46:13 Europe/Berlin] Admin login successful - ID: 2
+[20-Mar-2025 12:48:49 Europe/Berlin] === New Login Attempt ===
+[20-Mar-2025 12:48:49 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[20-Mar-2025 12:48:49 Europe/Berlin] Querying table: admins
+[20-Mar-2025 12:48:49 Europe/Berlin] Query result rows: 1
+[20-Mar-2025 12:48:49 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[20-Mar-2025 12:48:49 Europe/Berlin] Admin login successful - ID: 2
+[20-Mar-2025 12:49:11 Europe/Berlin] === New Login Attempt ===
+[20-Mar-2025 12:49:11 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 3333333333
+[20-Mar-2025 12:49:11 Europe/Berlin] Querying table: students
+[20-Mar-2025 12:49:11 Europe/Berlin] Query result rows: 1
+[20-Mar-2025 12:49:11 Europe/Berlin] Found user: {"student_id":1,"first_name":"Rahul","last_name":"Roy","registration_no":"3333","class_roll":"3333","department":"Bengali","session":"2025-2026","email":"c@c.com","mobile":"3333333333","password":"$2y$10$mcOvqaRUXP1RLKzoARfVUuLVFV388Lh71UsDcidG2p1Ad.WBi7Zxa","status":"active","approved":1,"created_at":"2025-03-19 16:33:14","updated_at":"2025-03-19 16:41:13"}
+[20-Mar-2025 12:52:22 Europe/Berlin] === New Login Attempt ===
+[20-Mar-2025 12:52:22 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[20-Mar-2025 12:52:22 Europe/Berlin] Querying table: admins
+[20-Mar-2025 12:52:22 Europe/Berlin] Query result rows: 1
+[20-Mar-2025 12:52:22 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[20-Mar-2025 12:52:22 Europe/Berlin] Admin login successful - ID: 2
+[20-Mar-2025 12:52:48 Europe/Berlin] === New Login Attempt ===
+[20-Mar-2025 12:52:48 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1111111111
+[20-Mar-2025 12:52:48 Europe/Berlin] Querying table: departments
+[20-Mar-2025 12:52:48 Europe/Berlin] Query result rows: 1
+[20-Mar-2025 12:52:48 Europe/Berlin] Found user: {"department_id":3,"department":"English","hod_name":"Sudip Sinha","hod_email":"a@a.com","hod_mobile":"1111111111","password":"$2y$10$zgSsqpMqE91tJfPar4ulBeN\/k3SFeiZYjUv58NoxIeAlqYzIMrpR2","approved":1,"created_at":"2025-03-19 15:26:07"}
+[20-Mar-2025 17:51:47 Europe/Berlin] === New Login Attempt ===
+[20-Mar-2025 17:51:47 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[20-Mar-2025 17:51:47 Europe/Berlin] Querying table: admins
+[20-Mar-2025 17:51:47 Europe/Berlin] Query result rows: 1
+[20-Mar-2025 17:51:47 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[20-Mar-2025 17:51:47 Europe/Berlin] Admin login successful - ID: 2
+[20-Mar-2025 18:18:51 Europe/Berlin] === New Login Attempt ===
+[20-Mar-2025 18:18:51 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[20-Mar-2025 18:18:51 Europe/Berlin] Querying table: admins
+[20-Mar-2025 18:18:51 Europe/Berlin] Query result rows: 1
+[20-Mar-2025 18:18:51 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[20-Mar-2025 18:18:51 Europe/Berlin] Admin login successful - ID: 2
+[21-Mar-2025 06:44:38 Europe/Berlin] === New Login Attempt ===
+[21-Mar-2025 06:44:38 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[21-Mar-2025 06:44:38 Europe/Berlin] Querying table: admins
+[21-Mar-2025 06:44:38 Europe/Berlin] Query result rows: 1
+[21-Mar-2025 06:44:38 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[21-Mar-2025 06:44:38 Europe/Berlin] Admin login successful - ID: 2
+[21-Mar-2025 06:46:15 Europe/Berlin] === New Login Attempt ===
+[21-Mar-2025 06:46:15 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1234512345
+[21-Mar-2025 06:46:15 Europe/Berlin] Querying table: departments
+[21-Mar-2025 06:46:15 Europe/Berlin] Query result rows: 0
+[21-Mar-2025 06:46:15 Europe/Berlin] No user found with mobile/ID: 1234512345
+[21-Mar-2025 06:46:15 Europe/Berlin] Login error: User not found
+[21-Mar-2025 06:46:29 Europe/Berlin] === New Login Attempt ===
+[21-Mar-2025 06:46:29 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 123451345
+[21-Mar-2025 06:46:29 Europe/Berlin] Querying table: departments
+[21-Mar-2025 06:46:29 Europe/Berlin] Query result rows: 0
+[21-Mar-2025 06:46:29 Europe/Berlin] No user found with mobile/ID: 123451345
+[21-Mar-2025 06:46:29 Europe/Berlin] Login error: User not found
+[21-Mar-2025 06:47:10 Europe/Berlin] === New Login Attempt ===
+[21-Mar-2025 06:47:10 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 12345612345
+[21-Mar-2025 06:47:10 Europe/Berlin] Querying table: departments
+[21-Mar-2025 06:47:10 Europe/Berlin] Query result rows: 1
+[21-Mar-2025 06:47:10 Europe/Berlin] Found user: {"department_id":4,"department":"Computer Science & Application","hod_name":"Ananya Roy","hod_email":"ara@a.com","hod_mobile":"12345612345","password":"$2y$10$Ak0isdjm62Si9dk.BiuJx.3t2uy6SbB2pV1Ure8otK8f0IUG7rmpm","approved":1,"created_at":"2025-03-21 11:15:46"}
+[21-Mar-2025 06:48:53 Europe/Berlin] === New Login Attempt ===
+[21-Mar-2025 06:48:53 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 0000000000
+[21-Mar-2025 06:48:53 Europe/Berlin] Querying table: students
+[21-Mar-2025 06:48:53 Europe/Berlin] Query result rows: 1
+[21-Mar-2025 06:48:53 Europe/Berlin] Found user: {"student_id":3,"first_name":"Anamika","last_name":"Singha","registration_no":"20220071341","class_roll":"1232","department":"Computer Science & Application","session":"2022-2023","email":"princeaminul8822@gmail.com","mobile":"0000000000","password":"$2y$10$wnGFAjgBEs3MfHr5VFwOiuOcshTtEvOEKACLf4Z6YH32lqFHyG.ia","status":"pending","approved":0,"created_at":"2025-03-21 11:18:36","updated_at":"2025-03-21 11:18:36"}
+[21-Mar-2025 06:48:53 Europe/Berlin] Student account not approved: 3
+[21-Mar-2025 06:48:53 Europe/Berlin] Login error: Your account is pending approval by your department. Please check back later.
+[21-Mar-2025 06:49:06 Europe/Berlin] === New Login Attempt ===
+[21-Mar-2025 06:49:06 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 0000000000
+[21-Mar-2025 06:49:06 Europe/Berlin] Querying table: students
+[21-Mar-2025 06:49:06 Europe/Berlin] Query result rows: 1
+[21-Mar-2025 06:49:06 Europe/Berlin] Found user: {"student_id":3,"first_name":"Anamika","last_name":"Singha","registration_no":"20220071341","class_roll":"1232","department":"Computer Science & Application","session":"2022-2023","email":"princeaminul8822@gmail.com","mobile":"0000000000","password":"$2y$10$wnGFAjgBEs3MfHr5VFwOiuOcshTtEvOEKACLf4Z6YH32lqFHyG.ia","status":"pending","approved":0,"created_at":"2025-03-21 11:18:36","updated_at":"2025-03-21 11:18:36"}
+[21-Mar-2025 06:49:06 Europe/Berlin] Student account not approved: 3
+[21-Mar-2025 06:49:06 Europe/Berlin] Login error: Your account is pending approval by your department. Please check back later.
+[21-Mar-2025 06:49:22 Europe/Berlin] === New Login Attempt ===
+[21-Mar-2025 06:49:22 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 8822411064
+[21-Mar-2025 06:49:22 Europe/Berlin] Querying table: students
+[21-Mar-2025 06:49:22 Europe/Berlin] Query result rows: 0
+[21-Mar-2025 06:49:22 Europe/Berlin] No user found with mobile/ID: 8822411064
+[21-Mar-2025 06:49:22 Europe/Berlin] Login error: User not found
+[21-Mar-2025 06:49:34 Europe/Berlin] === New Login Attempt ===
+[21-Mar-2025 06:49:34 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 0000000000
+[21-Mar-2025 06:49:34 Europe/Berlin] Querying table: students
+[21-Mar-2025 06:49:34 Europe/Berlin] Query result rows: 1
+[21-Mar-2025 06:49:34 Europe/Berlin] Found user: {"student_id":3,"first_name":"Anamika","last_name":"Singha","registration_no":"20220071341","class_roll":"1232","department":"Computer Science & Application","session":"2022-2023","email":"princeaminul8822@gmail.com","mobile":"0000000000","password":"$2y$10$wnGFAjgBEs3MfHr5VFwOiuOcshTtEvOEKACLf4Z6YH32lqFHyG.ia","status":"pending","approved":0,"created_at":"2025-03-21 11:18:36","updated_at":"2025-03-21 11:18:36"}
+[21-Mar-2025 06:49:35 Europe/Berlin] Student account not approved: 3
+[21-Mar-2025 06:49:35 Europe/Berlin] Login error: Your account is pending approval by your department. Please check back later.
+[21-Mar-2025 06:51:01 Europe/Berlin] === New Login Attempt ===
+[21-Mar-2025 06:51:01 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 0000000000
+[21-Mar-2025 06:51:01 Europe/Berlin] Querying table: students
+[21-Mar-2025 06:51:01 Europe/Berlin] Query result rows: 1
+[21-Mar-2025 06:51:01 Europe/Berlin] Found user: {"student_id":3,"first_name":"Anamika","last_name":"Singha","registration_no":"20220071341","class_roll":"1232","department":"Computer Science & Application","session":"2022-2023","email":"princeaminul8822@gmail.com","mobile":"0000000000","password":"$2y$10$wnGFAjgBEs3MfHr5VFwOiuOcshTtEvOEKACLf4Z6YH32lqFHyG.ia","status":"pending","approved":0,"created_at":"2025-03-21 11:18:36","updated_at":"2025-03-21 11:18:36"}
+[21-Mar-2025 06:51:01 Europe/Berlin] Student account not approved: 3
+[21-Mar-2025 06:51:01 Europe/Berlin] Login error: Your account is pending approval by your department. Please check back later.
+[21-Mar-2025 06:52:08 Europe/Berlin] === New Login Attempt ===
+[21-Mar-2025 06:52:08 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 7002452374
+[21-Mar-2025 06:52:08 Europe/Berlin] Querying table: students
+[21-Mar-2025 06:52:08 Europe/Berlin] Query result rows: 1
+[21-Mar-2025 06:52:08 Europe/Berlin] Found user: {"student_id":4,"first_name":"Anamika","last_name":"Singha","registration_no":"20220007341","class_roll":"1232","department":"Computer Science & Application","session":"2022-2023","email":"princeaminul8822@gmail.com","mobile":"7002452374","password":"$2y$10$3Mw.YJXHikEzuHJP.9itretJkf2yumgEHaUTf7.N0alIuRNzzibn6","status":"pending","approved":0,"created_at":"2025-03-21 11:21:53","updated_at":"2025-03-21 11:21:53"}
+[21-Mar-2025 06:52:08 Europe/Berlin] Student account not approved: 4
+[21-Mar-2025 06:52:08 Europe/Berlin] Login error: Your account is pending approval by your department. Please check back later.
+[21-Mar-2025 06:52:40 Europe/Berlin] === New Login Attempt ===
+[21-Mar-2025 06:52:40 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 12345612345
+[21-Mar-2025 06:52:40 Europe/Berlin] Querying table: departments
+[21-Mar-2025 06:52:40 Europe/Berlin] Query result rows: 1
+[21-Mar-2025 06:52:40 Europe/Berlin] Found user: {"department_id":4,"department":"Computer Science & Application","hod_name":"Ananya Roy","hod_email":"ara@a.com","hod_mobile":"12345612345","password":"$2y$10$Ak0isdjm62Si9dk.BiuJx.3t2uy6SbB2pV1Ure8otK8f0IUG7rmpm","approved":1,"created_at":"2025-03-21 11:15:46"}
+[21-Mar-2025 06:54:19 Europe/Berlin] === New Login Attempt ===
+[21-Mar-2025 06:54:19 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 7002452374
+[21-Mar-2025 06:54:19 Europe/Berlin] Querying table: students
+[21-Mar-2025 06:54:19 Europe/Berlin] Query result rows: 1
+[21-Mar-2025 06:54:19 Europe/Berlin] Found user: {"student_id":4,"first_name":"Anamika","last_name":"Singha","registration_no":"20220007341","class_roll":"1232","department":"Computer Science & Application","session":"2022-2023","email":"princeaminul8822@gmail.com","mobile":"7002452374","password":"$2y$10$3Mw.YJXHikEzuHJP.9itretJkf2yumgEHaUTf7.N0alIuRNzzibn6","status":"active","approved":1,"created_at":"2025-03-21 11:21:53","updated_at":"2025-03-21 11:23:29"}
+[21-Mar-2025 06:58:16 Europe/Berlin] === New Login Attempt ===
+[21-Mar-2025 06:58:16 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 12345612345
+[21-Mar-2025 06:58:16 Europe/Berlin] Querying table: departments
+[21-Mar-2025 06:58:16 Europe/Berlin] Query result rows: 1
+[21-Mar-2025 06:58:16 Europe/Berlin] Found user: {"department_id":4,"department":"Computer Science & Application","hod_name":"Ananya Roy","hod_email":"ara@a.com","hod_mobile":"12345612345","password":"$2y$10$Ak0isdjm62Si9dk.BiuJx.3t2uy6SbB2pV1Ure8otK8f0IUG7rmpm","approved":1,"created_at":"2025-03-21 11:15:46"}
+[21-Mar-2025 07:12:33 Europe/Berlin] === New Login Attempt ===
+[21-Mar-2025 07:12:33 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[21-Mar-2025 07:12:33 Europe/Berlin] Querying table: admins
+[21-Mar-2025 07:12:33 Europe/Berlin] Query result rows: 1
+[21-Mar-2025 07:12:33 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[21-Mar-2025 07:12:33 Europe/Berlin] Admin login successful - ID: 2
+[21-Mar-2025 07:20:22 Europe/Berlin] === New Login Attempt ===
+[21-Mar-2025 07:20:22 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 12345612345
+[21-Mar-2025 07:20:22 Europe/Berlin] Querying table: departments
+[21-Mar-2025 07:20:22 Europe/Berlin] Query result rows: 1
+[21-Mar-2025 07:20:22 Europe/Berlin] Found user: {"department_id":4,"department":"Computer Science & Application","hod_name":"Ananya Roy","hod_email":"ara@a.com","hod_mobile":"12345612345","password":"$2y$10$Ak0isdjm62Si9dk.BiuJx.3t2uy6SbB2pV1Ure8otK8f0IUG7rmpm","approved":1,"created_at":"2025-03-21 11:15:46"}
+[21-Mar-2025 07:21:32 Europe/Berlin] === New Login Attempt ===
+[21-Mar-2025 07:21:32 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[21-Mar-2025 07:21:32 Europe/Berlin] Querying table: admins
+[21-Mar-2025 07:21:32 Europe/Berlin] Query result rows: 1
+[21-Mar-2025 07:21:32 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[21-Mar-2025 07:21:32 Europe/Berlin] Admin login successful - ID: 2
+[21-Mar-2025 07:28:48 Europe/Berlin] === New Login Attempt ===
+[21-Mar-2025 07:28:48 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 12345612345
+[21-Mar-2025 07:29:01 Europe/Berlin] === New Login Attempt ===
+[21-Mar-2025 07:29:01 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 7002452374
+[21-Mar-2025 07:29:01 Europe/Berlin] Querying table: students
+[21-Mar-2025 07:29:01 Europe/Berlin] Query result rows: 1
+[21-Mar-2025 07:29:01 Europe/Berlin] Found user: {"student_id":4,"first_name":"Anamika","last_name":"Singha","registration_no":"20220007341","class_roll":"1232","department":"Computer Science & Application","session":"2022-2023","email":"princeaminul8822@gmail.com","mobile":"7002452374","password":"$2y$10$3Mw.YJXHikEzuHJP.9itretJkf2yumgEHaUTf7.N0alIuRNzzibn6","status":"active","approved":1,"created_at":"2025-03-21 11:21:53","updated_at":"2025-03-21 11:23:29"}
+[21-Mar-2025 07:29:39 Europe/Berlin] === New Login Attempt ===
+[21-Mar-2025 07:29:39 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[21-Mar-2025 07:29:39 Europe/Berlin] Querying table: admins
+[21-Mar-2025 07:29:39 Europe/Berlin] Query result rows: 1
+[21-Mar-2025 07:29:39 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[21-Mar-2025 07:29:39 Europe/Berlin] Admin login successful - ID: 2
+[21-Mar-2025 07:32:57 Europe/Berlin] === New Login Attempt ===
+[21-Mar-2025 07:32:57 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[21-Mar-2025 07:32:57 Europe/Berlin] Querying table: admins
+[21-Mar-2025 07:32:57 Europe/Berlin] Query result rows: 1
+[21-Mar-2025 07:32:57 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[21-Mar-2025 07:32:57 Europe/Berlin] Admin login successful - ID: 2
+[21-Mar-2025 07:34:17 Europe/Berlin] === New Login Attempt ===
+[21-Mar-2025 07:34:17 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[21-Mar-2025 07:34:17 Europe/Berlin] Querying table: admins
+[21-Mar-2025 07:34:17 Europe/Berlin] Query result rows: 1
+[21-Mar-2025 07:34:17 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[21-Mar-2025 07:34:17 Europe/Berlin] Admin login successful - ID: 2
+[21-Mar-2025 07:46:47 Europe/Berlin] === New Login Attempt ===
+[21-Mar-2025 07:46:47 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 12345612345
+[21-Mar-2025 07:46:47 Europe/Berlin] Querying table: departments
+[21-Mar-2025 07:46:47 Europe/Berlin] Query result rows: 1
+[21-Mar-2025 07:46:47 Europe/Berlin] Found user: {"department_id":4,"department":"Computer Science & Application","hod_name":"Ananya Roy","hod_email":"ara@a.com","hod_mobile":"12345612345","password":"$2y$10$Ak0isdjm62Si9dk.BiuJx.3t2uy6SbB2pV1Ure8otK8f0IUG7rmpm","approved":1,"created_at":"2025-03-21 11:15:46"}
+[21-Mar-2025 08:05:55 Europe/Berlin] === New Login Attempt ===
+[21-Mar-2025 08:05:55 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[21-Mar-2025 08:05:55 Europe/Berlin] Querying table: admins
+[21-Mar-2025 08:05:55 Europe/Berlin] Query result rows: 1
+[21-Mar-2025 08:05:55 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[21-Mar-2025 08:05:55 Europe/Berlin] Admin login successful - ID: 2
+[21-Mar-2025 11:18:28 Europe/Berlin] === New Login Attempt ===
+[21-Mar-2025 11:18:28 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[21-Mar-2025 11:18:28 Europe/Berlin] Querying table: admins
+[21-Mar-2025 11:18:28 Europe/Berlin] Query result rows: 1
+[21-Mar-2025 11:18:28 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[21-Mar-2025 11:18:28 Europe/Berlin] Admin login successful - ID: 2
+[21-Mar-2025 11:18:52 Europe/Berlin] === New Login Attempt ===
+[21-Mar-2025 11:18:52 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 12345612345
+[21-Mar-2025 11:18:52 Europe/Berlin] Querying table: departments
+[21-Mar-2025 11:18:52 Europe/Berlin] Query result rows: 1
+[21-Mar-2025 11:18:52 Europe/Berlin] Found user: {"department_id":4,"department":"Computer Science & Application","hod_name":"Ananya Roy","hod_email":"ara@a.com","hod_mobile":"12345612345","password":"$2y$10$Ak0isdjm62Si9dk.BiuJx.3t2uy6SbB2pV1Ure8otK8f0IUG7rmpm","approved":1,"created_at":"2025-03-21 11:15:46"}
+[21-Mar-2025 12:32:40 Europe/Berlin] === New Login Attempt ===
+[21-Mar-2025 12:32:40 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[21-Mar-2025 12:32:40 Europe/Berlin] Querying table: admins
+[21-Mar-2025 12:32:40 Europe/Berlin] Query result rows: 1
+[21-Mar-2025 12:32:40 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[21-Mar-2025 12:32:40 Europe/Berlin] Admin login successful - ID: 2
+[21-Mar-2025 12:37:15 Europe/Berlin] === New Login Attempt ===
+[21-Mar-2025 12:37:15 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[21-Mar-2025 12:37:15 Europe/Berlin] Querying table: admins
+[21-Mar-2025 12:37:15 Europe/Berlin] Query result rows: 1
+[21-Mar-2025 12:37:15 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[21-Mar-2025 12:37:15 Europe/Berlin] Admin login successful - ID: 2
+[21-Mar-2025 12:54:56 Europe/Berlin] === New Login Attempt ===
+[21-Mar-2025 12:54:56 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1234567890
+[21-Mar-2025 12:54:56 Europe/Berlin] Querying table: departments
+[21-Mar-2025 12:54:56 Europe/Berlin] Query result rows: 1
+[21-Mar-2025 12:54:56 Europe/Berlin] Found user: {"department_id":1,"department":"Bengali","hod_name":"Abhijit Chakraborty","hod_email":"example@example.com","hod_mobile":"1234567890","password":"$2y$10$iruCrRPizzco0JBzBUgmG.viSg7yi\/Lho8ciNJU8Tab4TZvtGY7Eq","approved":1,"created_at":"2025-03-16 10:37:14"}
+[21-Mar-2025 12:54:56 Europe/Berlin] Password verification failed
+[21-Mar-2025 12:54:56 Europe/Berlin] Login error: Invalid password
+[21-Mar-2025 12:55:03 Europe/Berlin] === New Login Attempt ===
+[21-Mar-2025 12:55:03 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 12345612345
+[21-Mar-2025 12:55:03 Europe/Berlin] Querying table: departments
+[21-Mar-2025 12:55:03 Europe/Berlin] Query result rows: 1
+[21-Mar-2025 12:55:03 Europe/Berlin] Found user: {"department_id":4,"department":"Computer Science & Application","hod_name":"Ananya Roy","hod_email":"ara@a.com","hod_mobile":"12345612345","password":"$2y$10$Ak0isdjm62Si9dk.BiuJx.3t2uy6SbB2pV1Ure8otK8f0IUG7rmpm","approved":1,"created_at":"2025-03-21 11:15:46"}
+[21-Mar-2025 12:57:40 Europe/Berlin] === New Login Attempt ===
+[21-Mar-2025 12:57:40 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[21-Mar-2025 12:57:40 Europe/Berlin] Querying table: admins
+[21-Mar-2025 12:57:40 Europe/Berlin] Query result rows: 1
+[21-Mar-2025 12:57:40 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[21-Mar-2025 12:57:40 Europe/Berlin] Admin login successful - ID: 2
+[21-Mar-2025 13:00:22 Europe/Berlin] === New Login Attempt ===
+[21-Mar-2025 13:00:22 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 7002452374
+[21-Mar-2025 13:00:22 Europe/Berlin] Querying table: students
+[21-Mar-2025 13:00:22 Europe/Berlin] Query result rows: 1
+[21-Mar-2025 13:00:22 Europe/Berlin] Found user: {"student_id":4,"first_name":"Anamika","last_name":"Das","registration_no":"20220007341","class_roll":"1232","department":"Computer Science & Application","session":"2022-2023","email":"princeaminul8822@gmail.com","mobile":"7002452374","password":"$2y$10$3Mw.YJXHikEzuHJP.9itretJkf2yumgEHaUTf7.N0alIuRNzzibn6","status":"active","approved":1,"created_at":"2025-03-21 11:21:53","updated_at":"2025-03-21 17:25:36"}
+[21-Mar-2025 13:04:35 Europe/Berlin] === New Login Attempt ===
+[21-Mar-2025 13:04:35 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 7002452374
+[21-Mar-2025 13:04:35 Europe/Berlin] Querying table: students
+[21-Mar-2025 13:04:35 Europe/Berlin] Query result rows: 1
+[21-Mar-2025 13:04:35 Europe/Berlin] Found user: {"student_id":4,"first_name":"Anamika","last_name":"Das","registration_no":"20220007341","class_roll":"1232","department":"Computer Science & Application","session":"2022-2023","email":"princeaminul8822@gmail.com","mobile":"7002452374","password":"$2y$10$3Mw.YJXHikEzuHJP.9itretJkf2yumgEHaUTf7.N0alIuRNzzibn6","status":"active","approved":1,"created_at":"2025-03-21 11:21:53","updated_at":"2025-03-21 17:25:36"}
+[24-Mar-2025 09:13:55 Europe/Berlin] === New Login Attempt ===
+[24-Mar-2025 09:13:55 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 7002452374
+[24-Mar-2025 09:13:55 Europe/Berlin] Querying table: students
+[24-Mar-2025 09:13:55 Europe/Berlin] Query result rows: 1
+[24-Mar-2025 09:13:55 Europe/Berlin] Found user: {"student_id":4,"first_name":"Anamika","last_name":"Das","registration_no":"20220007341","class_roll":"1232","department":"Computer Science & Application","session":"2022-2023","email":"princeaminul8822@gmail.com","mobile":"7002452374","password":"$2y$10$3Mw.YJXHikEzuHJP.9itretJkf2yumgEHaUTf7.N0alIuRNzzibn6","status":"active","approved":1,"created_at":"2025-03-21 11:21:53","updated_at":"2025-03-21 17:25:36"}
+[24-Mar-2025 09:14:21 Europe/Berlin] === New Login Attempt ===
+[24-Mar-2025 09:14:21 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[24-Mar-2025 09:14:21 Europe/Berlin] Querying table: admins
+[24-Mar-2025 09:14:21 Europe/Berlin] Query result rows: 1
+[24-Mar-2025 09:14:21 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[24-Mar-2025 09:14:21 Europe/Berlin] Admin login successful - ID: 2
+[24-Mar-2025 10:40:14 Europe/Berlin] === New Login Attempt ===
+[24-Mar-2025 10:40:14 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 7002452374
+[24-Mar-2025 10:40:14 Europe/Berlin] Querying table: students
+[24-Mar-2025 10:40:14 Europe/Berlin] Query result rows: 1
+[24-Mar-2025 10:40:14 Europe/Berlin] Found user: {"student_id":4,"first_name":"Anamika","last_name":"Singha","registration_no":"20220007341","class_roll":"1232","department":"Computer Science & Application","session":"2022-2023","email":"princeaminul8822@gmail.com","mobile":"7002452374","password":"$2y$10$3Mw.YJXHikEzuHJP.9itretJkf2yumgEHaUTf7.N0alIuRNzzibn6","status":"active","approved":1,"created_at":"2025-03-21 11:21:53","updated_at":"2025-03-24 13:44:11"}
+[24-Mar-2025 10:51:19 Europe/Berlin] === New Login Attempt ===
+[24-Mar-2025 10:51:19 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 7002452374
+[24-Mar-2025 10:51:19 Europe/Berlin] Querying table: students
+[24-Mar-2025 10:51:19 Europe/Berlin] Query result rows: 1
+[24-Mar-2025 10:51:19 Europe/Berlin] Found user: {"student_id":4,"first_name":"Anamika","last_name":"Singha","registration_no":"20220007341","class_roll":"1232","department":"Computer Science & Application","session":"2022-2023","email":"princeaminul8822@gmail.com","mobile":"7002452374","password":"$2y$10$3Mw.YJXHikEzuHJP.9itretJkf2yumgEHaUTf7.N0alIuRNzzibn6","status":"active","approved":1,"created_at":"2025-03-21 11:21:53","updated_at":"2025-03-24 13:44:11"}
+[24-Mar-2025 10:54:36 Europe/Berlin] === New Login Attempt ===
+[24-Mar-2025 10:54:36 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[24-Mar-2025 10:54:36 Europe/Berlin] Querying table: admins
+[24-Mar-2025 10:54:36 Europe/Berlin] Query result rows: 1
+[24-Mar-2025 10:54:36 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[24-Mar-2025 10:54:36 Europe/Berlin] Admin login successful - ID: 2
+[24-Mar-2025 10:56:11 Europe/Berlin] === New Login Attempt ===
+[24-Mar-2025 10:56:11 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 7002452374
+[24-Mar-2025 10:56:11 Europe/Berlin] Querying table: students
+[24-Mar-2025 10:56:11 Europe/Berlin] Query result rows: 1
+[24-Mar-2025 10:56:11 Europe/Berlin] Found user: {"student_id":4,"first_name":"Anamika","last_name":"Singha","registration_no":"20220007341","class_roll":"1232","department":"Computer Science & Application","session":"2022-2023","email":"princeaminul8822@gmail.com","mobile":"7002452374","password":"$2y$10$3Mw.YJXHikEzuHJP.9itretJkf2yumgEHaUTf7.N0alIuRNzzibn6","status":"active","approved":1,"created_at":"2025-03-21 11:21:53","updated_at":"2025-03-24 13:44:11"}
+[24-Mar-2025 11:19:46 Europe/Berlin] === New Login Attempt ===
+[24-Mar-2025 11:19:46 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1234567890
+[24-Mar-2025 11:19:46 Europe/Berlin] Querying table: departments
+[24-Mar-2025 11:19:46 Europe/Berlin] Query result rows: 1
+[24-Mar-2025 11:19:46 Europe/Berlin] Found user: {"department_id":1,"department":"Bengali","hod_name":"Abhijit Chakraborty","hod_email":"example@example.com","hod_mobile":"1234567890","password":"$2y$10$iruCrRPizzco0JBzBUgmG.viSg7yi\/Lho8ciNJU8Tab4TZvtGY7Eq","approved":1,"created_at":"2025-03-16 10:37:14"}
+[24-Mar-2025 11:19:46 Europe/Berlin] Password verification failed
+[24-Mar-2025 11:19:46 Europe/Berlin] Login error: Invalid password
+[24-Mar-2025 11:19:52 Europe/Berlin] === New Login Attempt ===
+[24-Mar-2025 11:19:52 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 12345612345
+[24-Mar-2025 11:19:52 Europe/Berlin] Querying table: departments
+[24-Mar-2025 11:19:52 Europe/Berlin] Query result rows: 1
+[24-Mar-2025 11:19:52 Europe/Berlin] Found user: {"department_id":4,"department":"Computer Science & Application","hod_name":"Ananya Roy","hod_email":"ara@a.com","hod_mobile":"12345612345","password":"$2y$10$Ak0isdjm62Si9dk.BiuJx.3t2uy6SbB2pV1Ure8otK8f0IUG7rmpm","approved":1,"created_at":"2025-03-21 11:15:46"}
+[24-Mar-2025 11:20:04 Europe/Berlin] === New Login Attempt ===
+[24-Mar-2025 11:20:04 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[24-Mar-2025 11:20:04 Europe/Berlin] Querying table: admins
+[24-Mar-2025 11:20:04 Europe/Berlin] Query result rows: 1
+[24-Mar-2025 11:20:04 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[24-Mar-2025 11:20:04 Europe/Berlin] Admin login successful - ID: 2
+[24-Mar-2025 11:26:12 Europe/Berlin] === New Login Attempt ===
+[24-Mar-2025 11:26:12 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 7002452374
+[24-Mar-2025 11:26:12 Europe/Berlin] Querying table: students
+[24-Mar-2025 11:26:12 Europe/Berlin] Query result rows: 1
+[24-Mar-2025 11:26:12 Europe/Berlin] Found user: {"student_id":4,"first_name":"Anamika","last_name":"Singha","registration_no":"20220007341","class_roll":"1232","department":"Computer Science & Application","session":"2022-2023","email":"princeaminul8822@gmail.com","mobile":"7002452374","password":"$2y$10$3Mw.YJXHikEzuHJP.9itretJkf2yumgEHaUTf7.N0alIuRNzzibn6","status":"active","approved":1,"created_at":"2025-03-21 11:21:53","updated_at":"2025-03-24 13:44:11"}
+[24-Mar-2025 11:27:53 Europe/Berlin] === New Login Attempt ===
+[24-Mar-2025 11:27:53 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 8133045145
+[24-Mar-2025 11:27:53 Europe/Berlin] Querying table: students
+[24-Mar-2025 11:27:53 Europe/Berlin] Query result rows: 1
+[24-Mar-2025 11:27:53 Europe/Berlin] Found user: {"student_id":5,"first_name":"Raju","last_name":"Ahmed","registration_no":"20220001234","class_roll":"19","department":"English","session":"2024-2025","email":"raju@raju.com","mobile":"8133045145","password":"$2y$10$4DC1WLWk\/IgNUWWkGtSgN.miWCXZ9yNpi68yMYcMDX3edHa.BEV96","status":"pending","approved":0,"created_at":"2025-03-24 15:57:42","updated_at":"2025-03-24 15:57:42"}
+[24-Mar-2025 11:27:53 Europe/Berlin] Student account not approved: 5
+[24-Mar-2025 11:27:53 Europe/Berlin] Login error: Your account is pending approval by your department. Please check back later.
+[24-Mar-2025 11:28:08 Europe/Berlin] === New Login Attempt ===
+[24-Mar-2025 11:28:08 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1234567890
+[24-Mar-2025 11:28:08 Europe/Berlin] Querying table: departments
+[24-Mar-2025 11:28:08 Europe/Berlin] Query result rows: 1
+[24-Mar-2025 11:28:08 Europe/Berlin] Found user: {"department_id":1,"department":"Bengali","hod_name":"Abhijit Chakraborty","hod_email":"example@example.com","hod_mobile":"1234567890","password":"$2y$10$iruCrRPizzco0JBzBUgmG.viSg7yi\/Lho8ciNJU8Tab4TZvtGY7Eq","approved":1,"created_at":"2025-03-16 10:37:14"}
+[24-Mar-2025 11:28:08 Europe/Berlin] Password verification failed
+[24-Mar-2025 11:28:08 Europe/Berlin] Login error: Invalid password
+[24-Mar-2025 11:28:13 Europe/Berlin] === New Login Attempt ===
+[24-Mar-2025 11:28:13 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 12345612345
+[24-Mar-2025 11:28:13 Europe/Berlin] Querying table: departments
+[24-Mar-2025 11:28:13 Europe/Berlin] Query result rows: 1
+[24-Mar-2025 11:28:13 Europe/Berlin] Found user: {"department_id":4,"department":"Computer Science & Application","hod_name":"Ananya Roy","hod_email":"ara@a.com","hod_mobile":"12345612345","password":"$2y$10$Ak0isdjm62Si9dk.BiuJx.3t2uy6SbB2pV1Ure8otK8f0IUG7rmpm","approved":1,"created_at":"2025-03-21 11:15:46"}
+[24-Mar-2025 11:28:43 Europe/Berlin] === New Login Attempt ===
+[24-Mar-2025 11:28:43 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1111111111
+[24-Mar-2025 11:28:43 Europe/Berlin] Querying table: departments
+[24-Mar-2025 11:28:43 Europe/Berlin] Query result rows: 1
+[24-Mar-2025 11:28:43 Europe/Berlin] Found user: {"department_id":3,"department":"English","hod_name":"Sudip Sinha","hod_email":"a@a.com","hod_mobile":"1111111111","password":"$2y$10$zgSsqpMqE91tJfPar4ulBeN\/k3SFeiZYjUv58NoxIeAlqYzIMrpR2","approved":1,"created_at":"2025-03-19 15:26:07"}
+[24-Mar-2025 11:28:59 Europe/Berlin] === New Login Attempt ===
+[24-Mar-2025 11:28:59 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 8133045145
+[24-Mar-2025 11:28:59 Europe/Berlin] Querying table: students
+[24-Mar-2025 11:28:59 Europe/Berlin] Query result rows: 1
+[24-Mar-2025 11:28:59 Europe/Berlin] Found user: {"student_id":5,"first_name":"Raju","last_name":"Ahmed","registration_no":"20220001234","class_roll":"19","department":"English","session":"2024-2025","email":"raju@raju.com","mobile":"8133045145","password":"$2y$10$4DC1WLWk\/IgNUWWkGtSgN.miWCXZ9yNpi68yMYcMDX3edHa.BEV96","status":"active","approved":1,"created_at":"2025-03-24 15:57:42","updated_at":"2025-03-24 15:58:51"}
+[24-Mar-2025 11:29:18 Europe/Berlin] === New Login Attempt ===
+[24-Mar-2025 11:29:18 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1111111111
+[24-Mar-2025 11:29:18 Europe/Berlin] Querying table: departments
+[24-Mar-2025 11:29:18 Europe/Berlin] Query result rows: 1
+[24-Mar-2025 11:29:18 Europe/Berlin] Found user: {"department_id":3,"department":"English","hod_name":"Sudip Sinha","hod_email":"a@a.com","hod_mobile":"1111111111","password":"$2y$10$zgSsqpMqE91tJfPar4ulBeN\/k3SFeiZYjUv58NoxIeAlqYzIMrpR2","approved":1,"created_at":"2025-03-19 15:26:07"}
+[26-Mar-2025 14:19:56 Europe/Berlin] === New Login Attempt ===
+[26-Mar-2025 14:19:56 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 1111111111
+[26-Mar-2025 14:19:56 Europe/Berlin] Querying table: students
+[26-Mar-2025 14:19:56 Europe/Berlin] Query result rows: 0
+[26-Mar-2025 14:19:56 Europe/Berlin] No user found with mobile/ID: 1111111111
+[26-Mar-2025 14:19:56 Europe/Berlin] Login error: User not found
+[26-Mar-2025 14:20:02 Europe/Berlin] === New Login Attempt ===
+[26-Mar-2025 14:20:02 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 8133045145
+[26-Mar-2025 14:20:02 Europe/Berlin] Querying table: students
+[26-Mar-2025 14:20:02 Europe/Berlin] Query result rows: 1
+[26-Mar-2025 14:20:02 Europe/Berlin] Found user: {"student_id":5,"first_name":"Raju","last_name":"Ahmed","registration_no":"20220001234","class_roll":"19","department":"English","session":"2024-2025","email":"raju@raju.com","mobile":"8133045145","password":"$2y$10$4DC1WLWk\/IgNUWWkGtSgN.miWCXZ9yNpi68yMYcMDX3edHa.BEV96","status":"active","approved":1,"created_at":"2025-03-24 15:57:42","updated_at":"2025-03-24 15:58:51"}
+[26-Mar-2025 14:20:34 Europe/Berlin] === New Login Attempt ===
+[26-Mar-2025 14:20:34 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[26-Mar-2025 14:20:34 Europe/Berlin] Querying table: admins
+[26-Mar-2025 14:20:34 Europe/Berlin] Query result rows: 1
+[26-Mar-2025 14:20:34 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[26-Mar-2025 14:20:34 Europe/Berlin] Admin login successful - ID: 2
+[26-Mar-2025 14:48:10 Europe/Berlin] === New Login Attempt ===
+[26-Mar-2025 14:48:10 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 9365743602
+[26-Mar-2025 14:48:10 Europe/Berlin] Querying table: students
+[26-Mar-2025 14:48:10 Europe/Berlin] Query result rows: 1
+[26-Mar-2025 14:48:10 Europe/Berlin] Found user: {"student_id":6,"first_name":"Abdul","last_name":"Kadir","registration_no":"20220007777","class_roll":"1111","department":"Computer Science & Application","session":"2024-2025","email":"example12@ex.com","mobile":"9365743602","password":"$2y$10$1A0MSzV0SDJGj5N9tPq9IOCZJF5S2it2iRVxyBIfu1RfyCxpXmYPW","status":"pending","approved":0,"created_at":"2025-03-26 19:17:49","updated_at":"2025-03-26 19:17:49"}
+[26-Mar-2025 14:48:10 Europe/Berlin] Student account not approved: 6
+[26-Mar-2025 14:48:10 Europe/Berlin] Login error: Your account is pending approval by your department. Please check back later.
+[26-Mar-2025 14:48:24 Europe/Berlin] === New Login Attempt ===
+[26-Mar-2025 14:48:24 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 12345612345
+[26-Mar-2025 14:48:24 Europe/Berlin] Querying table: departments
+[26-Mar-2025 14:48:24 Europe/Berlin] Query result rows: 1
+[26-Mar-2025 14:48:24 Europe/Berlin] Found user: {"department_id":4,"department":"Computer Science & Application","hod_name":"Ananya Roy","hod_email":"ara@a.com","hod_mobile":"12345612345","password":"$2y$10$Ak0isdjm62Si9dk.BiuJx.3t2uy6SbB2pV1Ure8otK8f0IUG7rmpm","approved":1,"created_at":"2025-03-21 11:15:46"}
+[26-Mar-2025 14:48:55 Europe/Berlin] === New Login Attempt ===
+[26-Mar-2025 14:48:55 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 9365743602
+[26-Mar-2025 14:48:55 Europe/Berlin] Querying table: students
+[26-Mar-2025 14:48:55 Europe/Berlin] Query result rows: 1
+[26-Mar-2025 14:48:55 Europe/Berlin] Found user: {"student_id":6,"first_name":"Abdul","last_name":"Kadir","registration_no":"20220007777","class_roll":"1111","department":"Computer Science & Application","session":"2024-2025","email":"example12@ex.com","mobile":"9365743602","password":"$2y$10$1A0MSzV0SDJGj5N9tPq9IOCZJF5S2it2iRVxyBIfu1RfyCxpXmYPW","status":"active","approved":1,"created_at":"2025-03-26 19:17:49","updated_at":"2025-03-26 19:18:36"}
+[26-Mar-2025 14:51:56 Europe/Berlin] === New Login Attempt ===
+[26-Mar-2025 14:51:56 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[26-Mar-2025 14:51:56 Europe/Berlin] Querying table: admins
+[26-Mar-2025 14:51:56 Europe/Berlin] Query result rows: 1
+[26-Mar-2025 14:51:56 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[26-Mar-2025 14:51:56 Europe/Berlin] Admin login successful - ID: 2
+[29-Mar-2025 08:49:05 Europe/Berlin] === New Login Attempt ===
+[29-Mar-2025 08:49:05 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[29-Mar-2025 08:49:05 Europe/Berlin] Querying table: admins
+[29-Mar-2025 08:49:05 Europe/Berlin] Query result rows: 1
+[29-Mar-2025 08:49:05 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[29-Mar-2025 08:49:05 Europe/Berlin] Admin login successful - ID: 2
+[29-Mar-2025 08:49:12 Europe/Berlin] === New Login Attempt ===
+[29-Mar-2025 08:49:12 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 9365743602
+[29-Mar-2025 08:49:12 Europe/Berlin] Querying table: students
+[29-Mar-2025 08:49:12 Europe/Berlin] Query result rows: 1
+[29-Mar-2025 08:49:12 Europe/Berlin] Found user: {"student_id":6,"first_name":"Abdul","last_name":"Kadir","registration_no":"20220007777","class_roll":"1111","department":"Computer Science & Application","session":"2024-2025","email":"example12@ex.com","mobile":"9365743602","password":"$2y$10$1A0MSzV0SDJGj5N9tPq9IOCZJF5S2it2iRVxyBIfu1RfyCxpXmYPW","status":"active","approved":1,"created_at":"2025-03-26 19:17:49","updated_at":"2025-03-26 19:18:36"}
+[03-Apr-2025 12:53:37 Europe/Berlin] === New Login Attempt ===
+[03-Apr-2025 12:53:37 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[03-Apr-2025 12:53:37 Europe/Berlin] Querying table: admins
+[03-Apr-2025 12:53:37 Europe/Berlin] Query result rows: 1
+[03-Apr-2025 12:53:37 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[03-Apr-2025 12:53:37 Europe/Berlin] Admin login successful - ID: 2
+[03-Apr-2025 12:58:30 Europe/Berlin] === New Login Attempt ===
+[03-Apr-2025 12:58:30 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 9365743602
+[03-Apr-2025 12:58:30 Europe/Berlin] Querying table: students
+[03-Apr-2025 12:58:30 Europe/Berlin] Query result rows: 1
+[03-Apr-2025 12:58:30 Europe/Berlin] Found user: {"student_id":6,"first_name":"Abdul","last_name":"Kadir","registration_no":"20220007777","class_roll":"1111","department":"Computer Science & Application","session":"2024-2025","email":"example12@ex.com","mobile":"9365743602","password":"$2y$10$1A0MSzV0SDJGj5N9tPq9IOCZJF5S2it2iRVxyBIfu1RfyCxpXmYPW","status":"active","approved":1,"created_at":"2025-03-26 19:17:49","updated_at":"2025-03-26 19:18:36"}
+[03-Apr-2025 12:58:47 Europe/Berlin] === New Login Attempt ===
+[03-Apr-2025 12:58:47 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[03-Apr-2025 12:58:47 Europe/Berlin] Querying table: admins
+[03-Apr-2025 12:58:47 Europe/Berlin] Query result rows: 1
+[03-Apr-2025 12:58:47 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[03-Apr-2025 12:58:47 Europe/Berlin] Admin login successful - ID: 2
+[03-Apr-2025 12:59:12 Europe/Berlin] === New Login Attempt ===
+[03-Apr-2025 12:59:12 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 9365743602
+[03-Apr-2025 12:59:12 Europe/Berlin] Querying table: students
+[03-Apr-2025 12:59:12 Europe/Berlin] Query result rows: 1
+[03-Apr-2025 12:59:12 Europe/Berlin] Found user: {"student_id":6,"first_name":"Abdul","last_name":"Kadir","registration_no":"20220007777","class_roll":"1111","department":"Computer Science & Application","session":"2024-2025","email":"example12@ex.com","mobile":"9365743602","password":"$2y$10$1A0MSzV0SDJGj5N9tPq9IOCZJF5S2it2iRVxyBIfu1RfyCxpXmYPW","status":"active","approved":1,"created_at":"2025-03-26 19:17:49","updated_at":"2025-03-26 19:18:36"}
+[03-Apr-2025 14:45:23 Europe/Berlin] === New Login Attempt ===
+[03-Apr-2025 14:45:23 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 12345612345
+[03-Apr-2025 14:45:23 Europe/Berlin] Querying table: departments
+[03-Apr-2025 14:45:23 Europe/Berlin] Query result rows: 1
+[03-Apr-2025 14:45:23 Europe/Berlin] Found user: {"department_id":4,"department":"Computer Science & Application","hod_name":"Ananya Roy","hod_email":"ara@a.com","hod_mobile":"12345612345","password":"$2y$10$Ak0isdjm62Si9dk.BiuJx.3t2uy6SbB2pV1Ure8otK8f0IUG7rmpm","approved":1,"created_at":"2025-03-21 11:15:46"}
+[04-Apr-2025 14:32:52 Europe/Berlin] === New Login Attempt ===
+[04-Apr-2025 14:32:52 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 12345612345
+[04-Apr-2025 14:32:52 Europe/Berlin] Querying table: departments
+[04-Apr-2025 14:32:52 Europe/Berlin] Query result rows: 1
+[04-Apr-2025 14:32:52 Europe/Berlin] Found user: {"department_id":4,"department":"Computer Science & Application","hod_name":"Ananya Roy","hod_email":"ara@a.com","hod_mobile":"12345612345","password":"$2y$10$Ak0isdjm62Si9dk.BiuJx.3t2uy6SbB2pV1Ure8otK8f0IUG7rmpm","approved":1,"created_at":"2025-03-21 11:15:46"}
+[04-Apr-2025 14:36:38 Europe/Berlin] === New Login Attempt ===
+[04-Apr-2025 14:36:38 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[04-Apr-2025 14:36:38 Europe/Berlin] Querying table: admins
+[04-Apr-2025 14:36:38 Europe/Berlin] Query result rows: 1
+[04-Apr-2025 14:36:38 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[04-Apr-2025 14:36:38 Europe/Berlin] Admin login successful - ID: 2
+[08-Apr-2025 07:13:30 Europe/Berlin] === New Login Attempt ===
+[08-Apr-2025 07:13:30 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[08-Apr-2025 07:13:30 Europe/Berlin] Querying table: admins
+[08-Apr-2025 07:13:30 Europe/Berlin] Query result rows: 1
+[08-Apr-2025 07:13:30 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[08-Apr-2025 07:13:30 Europe/Berlin] Admin login successful - ID: 2
+[08-Apr-2025 07:21:00 Europe/Berlin] === New Login Attempt ===
+[08-Apr-2025 07:21:00 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 9365743602
+[08-Apr-2025 07:21:00 Europe/Berlin] Querying table: students
+[08-Apr-2025 07:21:00 Europe/Berlin] Query result rows: 1
+[08-Apr-2025 07:21:00 Europe/Berlin] Found user: {"student_id":6,"first_name":"Abdul","last_name":"Kadir","registration_no":"20220007777","class_roll":"1111","department":"Computer Science & Application","session":"2024-2025","email":"example12@ex.com","mobile":"9365743602","password":"$2y$10$1A0MSzV0SDJGj5N9tPq9IOCZJF5S2it2iRVxyBIfu1RfyCxpXmYPW","status":"active","approved":1,"created_at":"2025-03-26 19:17:49","updated_at":"2025-03-26 19:18:36"}
+[08-Apr-2025 07:21:35 Europe/Berlin] === New Login Attempt ===
+[08-Apr-2025 07:21:35 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 12345612345
+[08-Apr-2025 07:21:35 Europe/Berlin] Querying table: departments
+[08-Apr-2025 07:21:35 Europe/Berlin] Query result rows: 1
+[08-Apr-2025 07:21:35 Europe/Berlin] Found user: {"department_id":4,"department":"Computer Science & Application","hod_name":"Ananya Roy","hod_email":"ara@a.com","hod_mobile":"12345612345","password":"$2y$10$Ak0isdjm62Si9dk.BiuJx.3t2uy6SbB2pV1Ure8otK8f0IUG7rmpm","approved":1,"created_at":"2025-03-21 11:15:46"}
+[08-Apr-2025 13:10:32 Europe/Berlin] === New Login Attempt ===
+[08-Apr-2025 13:10:32 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[08-Apr-2025 13:10:32 Europe/Berlin] Querying table: admins
+[08-Apr-2025 13:10:32 Europe/Berlin] Query result rows: 1
+[08-Apr-2025 13:10:32 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[08-Apr-2025 13:10:32 Europe/Berlin] Admin login successful - ID: 2
+[08-Apr-2025 13:11:23 Europe/Berlin] === New Login Attempt ===
+[08-Apr-2025 13:11:23 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1111111111
+[08-Apr-2025 13:11:23 Europe/Berlin] Querying table: departments
+[08-Apr-2025 13:11:23 Europe/Berlin] Query result rows: 1
+[08-Apr-2025 13:11:23 Europe/Berlin] Found user: {"department_id":3,"department":"English","hod_name":"Sudip Sinha","hod_email":"a@a.com","hod_mobile":"1111111111","password":"$2y$10$zgSsqpMqE91tJfPar4ulBeN\/k3SFeiZYjUv58NoxIeAlqYzIMrpR2","approved":1,"created_at":"2025-03-19 15:26:07"}
+[08-Apr-2025 13:12:13 Europe/Berlin] === New Login Attempt ===
+[08-Apr-2025 13:12:13 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 9365743602
+[08-Apr-2025 13:12:13 Europe/Berlin] Querying table: students
+[08-Apr-2025 13:12:13 Europe/Berlin] Query result rows: 1
+[08-Apr-2025 13:12:13 Europe/Berlin] Found user: {"student_id":6,"first_name":"Abdul","last_name":"Kadir","registration_no":"20220007777","class_roll":"1111","department":"Computer Science & Application","session":"2024-2025","email":"example12@ex.com","mobile":"9365743602","password":"$2y$10$1A0MSzV0SDJGj5N9tPq9IOCZJF5S2it2iRVxyBIfu1RfyCxpXmYPW","status":"active","approved":1,"created_at":"2025-03-26 19:17:49","updated_at":"2025-03-26 19:18:36"}
+[08-Apr-2025 13:14:40 Europe/Berlin] === New Login Attempt ===
+[08-Apr-2025 13:14:40 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[08-Apr-2025 13:14:40 Europe/Berlin] Querying table: admins
+[08-Apr-2025 13:14:40 Europe/Berlin] Query result rows: 1
+[08-Apr-2025 13:14:40 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[08-Apr-2025 13:14:40 Europe/Berlin] Admin login successful - ID: 2
+[15-Apr-2025 14:37:51 Europe/Berlin] === New Login Attempt ===
+[15-Apr-2025 14:37:51 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 1234567890
+[15-Apr-2025 14:37:51 Europe/Berlin] Querying table: students
+[15-Apr-2025 14:37:51 Europe/Berlin] Query result rows: 0
+[15-Apr-2025 14:37:51 Europe/Berlin] No user found with mobile/ID: 1234567890
+[15-Apr-2025 14:37:51 Europe/Berlin] Login error: User not found
+[15-Apr-2025 14:37:54 Europe/Berlin] === New Login Attempt ===
+[15-Apr-2025 14:37:54 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[15-Apr-2025 14:37:54 Europe/Berlin] Querying table: admins
+[15-Apr-2025 14:37:54 Europe/Berlin] Query result rows: 1
+[15-Apr-2025 14:37:54 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[15-Apr-2025 14:37:54 Europe/Berlin] Admin login successful - ID: 2
+[15-Apr-2025 14:49:47 Europe/Berlin] === New Login Attempt ===
+[15-Apr-2025 14:49:47 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1111111111
+[15-Apr-2025 14:49:47 Europe/Berlin] Querying table: departments
+[15-Apr-2025 14:49:47 Europe/Berlin] Query result rows: 1
+[15-Apr-2025 14:49:47 Europe/Berlin] Found user: {"department_id":3,"department":"English","hod_name":"Sudip Sinha","hod_email":"a@a.com","hod_mobile":"1111111111","password":"$2y$10$zgSsqpMqE91tJfPar4ulBeN\/k3SFeiZYjUv58NoxIeAlqYzIMrpR2","approved":1,"created_at":"2025-03-19 15:26:07"}
+[21-Apr-2025 06:08:54 Europe/Berlin] === New Login Attempt ===
+[21-Apr-2025 06:08:54 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[21-Apr-2025 06:08:54 Europe/Berlin] Querying table: admins
+[21-Apr-2025 06:08:54 Europe/Berlin] Query result rows: 1
+[21-Apr-2025 06:08:54 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[21-Apr-2025 06:08:54 Europe/Berlin] Admin login successful - ID: 2
+[21-Apr-2025 06:53:43 Europe/Berlin] === New Login Attempt ===
+[21-Apr-2025 06:53:43 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 9365743602
+[21-Apr-2025 06:53:43 Europe/Berlin] Querying table: students
+[21-Apr-2025 06:53:43 Europe/Berlin] Query result rows: 1
+[21-Apr-2025 06:53:43 Europe/Berlin] Found user: {"student_id":6,"first_name":"Abdul","last_name":"Kadir","registration_no":"20220007777","class_roll":"1111","department":"Computer Science & Application","session":"2024-2025","email":"example12@ex.com","mobile":"9365743602","password":"$2y$10$1A0MSzV0SDJGj5N9tPq9IOCZJF5S2it2iRVxyBIfu1RfyCxpXmYPW","status":"active","approved":1,"created_at":"2025-03-26 19:17:49","updated_at":"2025-03-26 19:18:36"}
+[21-Apr-2025 06:58:30 Europe/Berlin] === New Login Attempt ===
+[21-Apr-2025 06:58:30 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1234567890
+[21-Apr-2025 06:58:30 Europe/Berlin] Querying table: departments
+[21-Apr-2025 06:58:30 Europe/Berlin] Query result rows: 1
+[21-Apr-2025 06:58:30 Europe/Berlin] Found user: {"department_id":1,"department":"Bengali","hod_name":"Abhijit Chakraborty","hod_email":"example@example.com","hod_mobile":"1234567890","password":"$2y$10$iruCrRPizzco0JBzBUgmG.viSg7yi\/Lho8ciNJU8Tab4TZvtGY7Eq","approved":1,"created_at":"2025-03-16 10:37:14"}
+[21-Apr-2025 06:58:30 Europe/Berlin] Password verification failed
+[21-Apr-2025 06:58:30 Europe/Berlin] Login error: Invalid password
+[21-Apr-2025 06:58:56 Europe/Berlin] === New Login Attempt ===
+[21-Apr-2025 06:58:56 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1111111111
+[21-Apr-2025 06:58:56 Europe/Berlin] Querying table: departments
+[21-Apr-2025 06:58:56 Europe/Berlin] Query result rows: 1
+[21-Apr-2025 06:58:56 Europe/Berlin] Found user: {"department_id":3,"department":"English","hod_name":"Sudip Sinha","hod_email":"a@a.com","hod_mobile":"1111111111","password":"$2y$10$zgSsqpMqE91tJfPar4ulBeN\/k3SFeiZYjUv58NoxIeAlqYzIMrpR2","approved":1,"created_at":"2025-03-19 15:26:07"}
+[22-Apr-2025 06:48:27 Europe/Berlin] === New Login Attempt ===
+[22-Apr-2025 06:48:27 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1111111111
+[22-Apr-2025 06:48:27 Europe/Berlin] Querying table: departments
+[22-Apr-2025 06:48:27 Europe/Berlin] Query result rows: 1
+[22-Apr-2025 06:48:27 Europe/Berlin] Found user: {"department_id":3,"department":"English","hod_name":"Sudip Sinha","hod_email":"a@a.com","hod_mobile":"1111111111","password":"$2y$10$zgSsqpMqE91tJfPar4ulBeN\/k3SFeiZYjUv58NoxIeAlqYzIMrpR2","approved":1,"created_at":"2025-03-19 15:26:07"}
+[25-Apr-2025 06:43:27 Europe/Berlin] === New Login Attempt ===
+[25-Apr-2025 06:43:27 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 1111111111
+[25-Apr-2025 06:43:27 Europe/Berlin] Querying table: students
+[25-Apr-2025 06:43:27 Europe/Berlin] Query result rows: 0
+[25-Apr-2025 06:43:27 Europe/Berlin] No user found with mobile/ID: 1111111111
+[25-Apr-2025 06:43:27 Europe/Berlin] Login error: User not found
+[25-Apr-2025 06:45:28 Europe/Berlin] === New Login Attempt ===
+[25-Apr-2025 06:45:28 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1111111111
+[25-Apr-2025 06:45:28 Europe/Berlin] Querying table: departments
+[25-Apr-2025 06:45:28 Europe/Berlin] Query result rows: 1
+[25-Apr-2025 06:45:28 Europe/Berlin] Found user: {"department_id":3,"department":"English","hod_name":"Sudip Sinha","hod_email":"a@a.com","hod_mobile":"1111111111","password":"$2y$10$zgSsqpMqE91tJfPar4ulBeN\/k3SFeiZYjUv58NoxIeAlqYzIMrpR2","approved":1,"created_at":"2025-03-19 15:26:07"}
+[25-Apr-2025 06:46:10 Europe/Berlin] === New Login Attempt ===
+[25-Apr-2025 06:46:10 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 20210008638
+[25-Apr-2025 06:48:48 Europe/Berlin] === New Login Attempt ===
+[25-Apr-2025 06:48:48 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 20210008638
+[25-Apr-2025 06:48:54 Europe/Berlin] === New Login Attempt ===
+[25-Apr-2025 06:48:54 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1111111111
+[25-Apr-2025 06:48:54 Europe/Berlin] Querying table: departments
+[25-Apr-2025 06:48:54 Europe/Berlin] Query result rows: 1
+[25-Apr-2025 06:48:54 Europe/Berlin] Found user: {"department_id":3,"department":"English","hod_name":"Sudip Sinha","hod_email":"a@a.com","hod_mobile":"1111111111","password":"$2y$10$zgSsqpMqE91tJfPar4ulBeN\/k3SFeiZYjUv58NoxIeAlqYzIMrpR2","approved":1,"created_at":"2025-03-19 15:26:07"}
+[25-Apr-2025 06:50:00 Europe/Berlin] === New Login Attempt ===
+[25-Apr-2025 06:50:00 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 20210008638
+[25-Apr-2025 06:50:16 Europe/Berlin] === New Login Attempt ===
+[25-Apr-2025 06:50:16 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1111111111
+[25-Apr-2025 06:50:16 Europe/Berlin] Querying table: departments
+[25-Apr-2025 06:50:16 Europe/Berlin] Query result rows: 1
+[25-Apr-2025 06:50:16 Europe/Berlin] Found user: {"department_id":3,"department":"English","hod_name":"Sudip Sinha","hod_email":"a@a.com","hod_mobile":"1111111111","password":"$2y$10$zgSsqpMqE91tJfPar4ulBeN\/k3SFeiZYjUv58NoxIeAlqYzIMrpR2","approved":1,"created_at":"2025-03-19 15:26:07"}
+[25-Apr-2025 06:51:46 Europe/Berlin] === New Login Attempt ===
+[25-Apr-2025 06:51:46 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1234567890
+[25-Apr-2025 06:51:46 Europe/Berlin] Querying table: departments
+[25-Apr-2025 06:51:46 Europe/Berlin] Query result rows: 1
+[25-Apr-2025 06:51:46 Europe/Berlin] Found user: {"department_id":1,"department":"Bengali","hod_name":"Abhijit Chakraborty","hod_email":"example@example.com","hod_mobile":"1234567890","password":"$2y$10$iruCrRPizzco0JBzBUgmG.viSg7yi\/Lho8ciNJU8Tab4TZvtGY7Eq","approved":1,"created_at":"2025-03-16 10:37:14"}
+[25-Apr-2025 06:51:46 Europe/Berlin] Password verification failed
+[25-Apr-2025 06:51:46 Europe/Berlin] Login error: Invalid password
+[25-Apr-2025 06:52:17 Europe/Berlin] === New Login Attempt ===
+[25-Apr-2025 06:52:17 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 12345612345
+[25-Apr-2025 06:52:17 Europe/Berlin] Querying table: departments
+[25-Apr-2025 06:52:17 Europe/Berlin] Query result rows: 1
+[25-Apr-2025 06:52:17 Europe/Berlin] Found user: {"department_id":4,"department":"Computer Science & Application","hod_name":"Ananya Roy","hod_email":"ara@a.com","hod_mobile":"12345612345","password":"$2y$10$Ak0isdjm62Si9dk.BiuJx.3t2uy6SbB2pV1Ure8otK8f0IUG7rmpm","approved":1,"created_at":"2025-03-21 11:15:46"}
+[25-Apr-2025 06:52:37 Europe/Berlin] === New Login Attempt ===
+[25-Apr-2025 06:52:37 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 7002654960
+[25-Apr-2025 06:52:37 Europe/Berlin] Querying table: students
+[25-Apr-2025 06:52:37 Europe/Berlin] Query result rows: 1
+[25-Apr-2025 06:52:37 Europe/Berlin] Found user: {"student_id":8,"first_name":"Sajon","last_name":"Ahmed","registration_no":"20210008638","class_roll":"2133","department":"Computer Science & Application","session":"2021-2022","email":"example213@gmail.com","mobile":"7002654960","password":"$2y$10$VzRciOWvQ1nW5E9Gom.HYucKBZfjEL9xuqCPGRqZJOyG\/RRHNfBq6","status":"active","approved":1,"created_at":"2025-04-25 10:21:35","updated_at":"2025-04-25 10:22:21"}
+[25-Apr-2025 06:52:59 Europe/Berlin] === New Login Attempt ===
+[25-Apr-2025 06:52:59 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[25-Apr-2025 06:52:59 Europe/Berlin] Querying table: admins
+[25-Apr-2025 06:52:59 Europe/Berlin] Query result rows: 1
+[25-Apr-2025 06:52:59 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[25-Apr-2025 06:52:59 Europe/Berlin] Admin login successful - ID: 2
+[25-Apr-2025 06:54:54 Europe/Berlin] === New Login Attempt ===
+[25-Apr-2025 06:54:54 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[25-Apr-2025 06:54:54 Europe/Berlin] Querying table: admins
+[25-Apr-2025 06:54:54 Europe/Berlin] Query result rows: 1
+[25-Apr-2025 06:54:54 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[25-Apr-2025 06:54:54 Europe/Berlin] Admin login successful - ID: 2
+[30-Apr-2025 10:37:56 Europe/Berlin] === New Login Attempt ===
+[30-Apr-2025 10:37:56 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 9365743602
+[30-Apr-2025 10:37:56 Europe/Berlin] Querying table: students
+[30-Apr-2025 10:37:56 Europe/Berlin] Query result rows: 1
+[30-Apr-2025 10:37:56 Europe/Berlin] Found user: {"student_id":6,"first_name":"Abdul","last_name":"Kadir","registration_no":"20220007777","class_roll":"1111","department":"Computer Science & Application","session":"2024-2025","email":"example12@ex.com","mobile":"9365743602","password":"$2y$10$1A0MSzV0SDJGj5N9tPq9IOCZJF5S2it2iRVxyBIfu1RfyCxpXmYPW","status":"active","approved":1,"created_at":"2025-03-26 19:17:49","updated_at":"2025-03-26 19:18:36"}
+[30-Apr-2025 10:41:16 Europe/Berlin] === New Login Attempt ===
+[30-Apr-2025 10:41:16 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[30-Apr-2025 10:41:16 Europe/Berlin] Querying table: admins
+[30-Apr-2025 10:41:16 Europe/Berlin] Query result rows: 1
+[30-Apr-2025 10:41:16 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[30-Apr-2025 10:41:16 Europe/Berlin] Admin login successful - ID: 2
+[30-Apr-2025 10:54:16 Europe/Berlin] === New Login Attempt ===
+[30-Apr-2025 10:54:16 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1111111111
+[30-Apr-2025 10:54:16 Europe/Berlin] Querying table: departments
+[30-Apr-2025 10:54:16 Europe/Berlin] Query result rows: 1
+[30-Apr-2025 10:54:16 Europe/Berlin] Found user: {"department_id":3,"department":"English","hod_name":"Sudip Sinha","hod_email":"a@a.com","hod_mobile":"1111111111","password":"$2y$10$zgSsqpMqE91tJfPar4ulBeN\/k3SFeiZYjUv58NoxIeAlqYzIMrpR2","approved":1,"created_at":"2025-03-19 15:26:07"}
+[10-Jun-2025 08:13:27 Europe/Berlin] === New Login Attempt ===
+[10-Jun-2025 08:13:27 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[10-Jun-2025 08:13:27 Europe/Berlin] Querying table: admins
+[10-Jun-2025 08:13:27 Europe/Berlin] Query result rows: 1
+[10-Jun-2025 08:13:27 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[10-Jun-2025 08:13:27 Europe/Berlin] Admin login successful - ID: 2
+[10-Jun-2025 08:18:55 Europe/Berlin] === New Login Attempt ===
+[10-Jun-2025 08:18:55 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 4444444444
+[10-Jun-2025 08:18:55 Europe/Berlin] Querying table: students
+[10-Jun-2025 08:18:55 Europe/Berlin] Query result rows: 1
+[10-Jun-2025 08:18:55 Europe/Berlin] Found user: {"student_id":2,"first_name":"Rahul","last_name":"Das","registration_no":"4444","class_roll":"4444","department":"English","session":"2023-2024","email":"d@d.com","mobile":"4444444444","password":"$2y$10$elZu.dUFNO8uC9247QJ7Ke5f1kLUGUaJJQ0CeIyQGTYnQNCSDEhl6","status":"active","approved":1,"created_at":"2025-03-19 16:42:31","updated_at":"2025-03-19 16:43:12"}
+[10-Jun-2025 11:43:06 Europe/Berlin] === New Login Attempt ===
+[10-Jun-2025 11:43:06 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 4444444444
+[10-Jun-2025 11:43:06 Europe/Berlin] Querying table: students
+[10-Jun-2025 11:43:06 Europe/Berlin] Query result rows: 1
+[10-Jun-2025 11:43:06 Europe/Berlin] Found user: {"student_id":2,"first_name":"Rahul","last_name":"Das","registration_no":"4444","class_roll":"4444","department":"English","session":"2023-2024","email":"d@d.com","mobile":"4444444444","password":"$2y$10$elZu.dUFNO8uC9247QJ7Ke5f1kLUGUaJJQ0CeIyQGTYnQNCSDEhl6","status":"active","approved":1,"created_at":"2025-03-19 16:42:31","updated_at":"2025-03-19 16:43:12"}
+[10-Jun-2025 12:51:46 Europe/Berlin] === New Login Attempt ===
+[10-Jun-2025 12:51:46 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[10-Jun-2025 12:51:46 Europe/Berlin] Querying table: admins
+[10-Jun-2025 12:51:46 Europe/Berlin] Query result rows: 1
+[10-Jun-2025 12:51:46 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[10-Jun-2025 12:51:46 Europe/Berlin] Admin password mismatch
+[10-Jun-2025 12:51:46 Europe/Berlin] Login error: Invalid password
+[10-Jun-2025 12:51:59 Europe/Berlin] === New Login Attempt ===
+[10-Jun-2025 12:51:59 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[10-Jun-2025 12:51:59 Europe/Berlin] Querying table: admins
+[10-Jun-2025 12:51:59 Europe/Berlin] Query result rows: 1
+[10-Jun-2025 12:51:59 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[10-Jun-2025 12:51:59 Europe/Berlin] Admin login successful - ID: 2
+[10-Jun-2025 13:06:44 Europe/Berlin] === New Login Attempt ===
+[10-Jun-2025 13:06:44 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: ‪4444444444
+[10-Jun-2025 13:07:02 Europe/Berlin] === New Login Attempt ===
+[10-Jun-2025 13:07:02 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 4444444444
+[10-Jun-2025 13:07:02 Europe/Berlin] Querying table: students
+[10-Jun-2025 13:07:02 Europe/Berlin] Query result rows: 0
+[10-Jun-2025 13:07:02 Europe/Berlin] No user found with mobile/ID: 4444444444
+[10-Jun-2025 13:07:02 Europe/Berlin] Login error: User not found
+[10-Jun-2025 13:07:40 Europe/Berlin] === New Login Attempt ===
+[10-Jun-2025 13:07:40 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 8888444477
+[10-Jun-2025 13:07:40 Europe/Berlin] Querying table: students
+[10-Jun-2025 13:07:40 Europe/Berlin] Query result rows: 1
+[10-Jun-2025 13:07:40 Europe/Berlin] Found user: {"student_id":2,"first_name":"Rahul","last_name":"Das","registration_no":"4444","class_roll":"4444","department":"English","session":"2023-2024","email":"d@d.com","mobile":"8888444477","password":"$2y$10$elZu.dUFNO8uC9247QJ7Ke5f1kLUGUaJJQ0CeIyQGTYnQNCSDEhl6","status":"active","approved":1,"created_at":"2025-03-19 16:42:31","updated_at":"2025-06-10 16:21:24"}
+[10-Jun-2025 15:30:30 Europe/Berlin] === New Login Attempt ===
+[10-Jun-2025 15:30:30 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 8888444477
+[10-Jun-2025 15:30:30 Europe/Berlin] Querying table: students
+[10-Jun-2025 15:30:30 Europe/Berlin] Query result rows: 1
+[10-Jun-2025 15:30:30 Europe/Berlin] Found user: {"student_id":2,"first_name":"Rahul","last_name":"Das","registration_no":"4444","class_roll":"4444","department":"English","session":"2023-2024","email":"d@d.com","mobile":"8888444477","password":"$2y$10$elZu.dUFNO8uC9247QJ7Ke5f1kLUGUaJJQ0CeIyQGTYnQNCSDEhl6","status":"active","approved":1,"created_at":"2025-03-19 16:42:31","updated_at":"2025-06-10 16:21:24"}
+[10-Jun-2025 15:31:00 Europe/Berlin] === New Login Attempt ===
+[10-Jun-2025 15:31:00 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 3333333333
+[10-Jun-2025 15:31:00 Europe/Berlin] Querying table: students
+[10-Jun-2025 15:31:00 Europe/Berlin] Query result rows: 1
+[10-Jun-2025 15:31:00 Europe/Berlin] Found user: {"student_id":1,"first_name":"Rahul","last_name":"Roy","registration_no":"3333","class_roll":"3333","department":"Bengali","session":"2025-2026","email":"c@c.com","mobile":"3333333333","password":"$2y$10$mcOvqaRUXP1RLKzoARfVUuLVFV388Lh71UsDcidG2p1Ad.WBi7Zxa","status":"active","approved":1,"created_at":"2025-03-19 16:33:14","updated_at":"2025-03-19 16:41:13"}
+[10-Jun-2025 15:31:01 Europe/Berlin] Password verification failed
+[10-Jun-2025 15:31:01 Europe/Berlin] Login error: Invalid password
+[10-Jun-2025 15:31:28 Europe/Berlin] === New Login Attempt ===
+[10-Jun-2025 15:31:28 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 3333333333
+[10-Jun-2025 15:31:28 Europe/Berlin] Querying table: students
+[10-Jun-2025 15:31:28 Europe/Berlin] Query result rows: 1
+[10-Jun-2025 15:31:28 Europe/Berlin] Found user: {"student_id":1,"first_name":"Rahul","last_name":"Roy","registration_no":"3333","class_roll":"3333","department":"Bengali","session":"2025-2026","email":"c@c.com","mobile":"3333333333","password":"$2y$10$elZu.dUFNO8uC9247QJ7Ke5f1kLUGUaJJQ0CeIyQGTYnQNCSDEhl6","status":"active","approved":1,"created_at":"2025-03-19 16:33:14","updated_at":"2025-06-10 19:01:12"}
+[10-Jun-2025 17:00:43 Europe/Berlin] === New Login Attempt ===
+[10-Jun-2025 17:00:43 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 3333333333
+[10-Jun-2025 17:00:43 Europe/Berlin] Querying table: students
+[10-Jun-2025 17:00:43 Europe/Berlin] Query result rows: 1
+[10-Jun-2025 17:00:43 Europe/Berlin] Found user: {"student_id":1,"first_name":"Rahul","last_name":"Roy","registration_no":"3333","class_roll":"3333","department":"Bengali","session":"2025-2026","email":"c@c.com","mobile":"3333333333","password":"$2y$10$elZu.dUFNO8uC9247QJ7Ke5f1kLUGUaJJQ0CeIyQGTYnQNCSDEhl6","status":"active","approved":1,"created_at":"2025-03-19 16:33:14","updated_at":"2025-06-10 19:01:12"}
+[10-Jun-2025 17:21:09 Europe/Berlin] === New Login Attempt ===
+[10-Jun-2025 17:21:09 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 9999999999
+[10-Jun-2025 17:21:09 Europe/Berlin] Querying table: students
+[10-Jun-2025 17:21:09 Europe/Berlin] Query result rows: 1
+[10-Jun-2025 17:21:09 Europe/Berlin] Found user: {"student_id":5,"first_name":"test","last_name":"testt","registration_no":"KC43423","class_roll":"43","department":"Computer Science & Application","session":"2024-2025","email":"test@gmail.com","mobile":"9999999999","password":"$2y$10$oq7VPSYYuFJ7Au1bNHfe..klxLtosdh\/XuqA7IogFQuD4hsqj6fCa","status":"active","approved":0,"created_at":"2025-06-10 20:50:25","updated_at":"2025-06-10 20:50:46"}
+[10-Jun-2025 17:21:09 Europe/Berlin] Student account not approved: 5
+[10-Jun-2025 17:21:09 Europe/Berlin] Login error: Your account is pending approval by your department. Please check back later.
+[10-Jun-2025 17:21:28 Europe/Berlin] === New Login Attempt ===
+[10-Jun-2025 17:21:28 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 9999999999
+[10-Jun-2025 17:21:28 Europe/Berlin] Querying table: students
+[10-Jun-2025 17:21:28 Europe/Berlin] Query result rows: 1
+[10-Jun-2025 17:21:28 Europe/Berlin] Found user: {"student_id":5,"first_name":"test","last_name":"testt","registration_no":"KC43423","class_roll":"43","department":"Computer Science & Application","session":"2024-2025","email":"test@gmail.com","mobile":"9999999999","password":"$2y$10$oq7VPSYYuFJ7Au1bNHfe..klxLtosdh\/XuqA7IogFQuD4hsqj6fCa","status":"active","approved":0,"created_at":"2025-06-10 20:50:25","updated_at":"2025-06-10 20:50:46"}
+[10-Jun-2025 17:21:28 Europe/Berlin] Student account not approved: 5
+[10-Jun-2025 17:21:28 Europe/Berlin] Login error: Your account is pending approval by your department. Please check back later.
+[10-Jun-2025 17:21:45 Europe/Berlin] === New Login Attempt ===
+[10-Jun-2025 17:21:45 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 9999999999
+[10-Jun-2025 17:21:45 Europe/Berlin] Querying table: students
+[10-Jun-2025 17:21:45 Europe/Berlin] Query result rows: 1
+[10-Jun-2025 17:21:45 Europe/Berlin] Found user: {"student_id":5,"first_name":"test","last_name":"testt","registration_no":"KC43423","class_roll":"43","department":"Computer Science & Application","session":"2024-2025","email":"test@gmail.com","mobile":"9999999999","password":"$2y$10$elZu.dUFNO8uC9247QJ7Ke5f1kLUGUaJJQ0CeIyQGTYnQNCSDEhl6","status":"active","approved":0,"created_at":"2025-06-10 20:50:25","updated_at":"2025-06-10 20:51:40"}
+[10-Jun-2025 17:21:45 Europe/Berlin] Student account not approved: 5
+[10-Jun-2025 17:21:45 Europe/Berlin] Login error: Your account is pending approval by your department. Please check back later.
+[10-Jun-2025 17:22:17 Europe/Berlin] === New Login Attempt ===
+[10-Jun-2025 17:22:17 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 9999999999
+[10-Jun-2025 17:22:17 Europe/Berlin] Querying table: students
+[10-Jun-2025 17:22:17 Europe/Berlin] Query result rows: 1
+[10-Jun-2025 17:22:17 Europe/Berlin] Found user: {"student_id":5,"first_name":"test","last_name":"testt","registration_no":"KC43423","class_roll":"43","department":"Computer Science & Application","session":"2024-2025","email":"test@gmail.com","mobile":"9999999999","password":"$2y$10$elZu.dUFNO8uC9247QJ7Ke5f1kLUGUaJJQ0CeIyQGTYnQNCSDEhl6","status":"active","approved":1,"created_at":"2025-06-10 20:50:25","updated_at":"2025-06-10 20:52:03"}
+[10-Jun-2025 17:26:07 Europe/Berlin] === New Login Attempt ===
+[10-Jun-2025 17:26:07 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 9999999999
+[10-Jun-2025 17:26:07 Europe/Berlin] Querying table: students
+[10-Jun-2025 17:26:07 Europe/Berlin] Query result rows: 1
+[10-Jun-2025 17:26:07 Europe/Berlin] Found user: {"student_id":6,"first_name":"test","last_name":"testt","registration_no":"KC8464","class_roll":"868","department":"English","session":"2021-2022","email":"test@gmail.com","mobile":"9999999999","password":"$2y$10$LN2pdG80fQM5poudkGS2nOCogrfK0wdEb5DLD\/u9pDvVvAJv\/xcti","status":"active","approved":1,"created_at":"2025-06-10 20:55:38","updated_at":"2025-06-10 20:55:54"}
+[10-Jun-2025 17:27:53 Europe/Berlin] === New Login Attempt ===
+[10-Jun-2025 17:27:53 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[10-Jun-2025 17:27:53 Europe/Berlin] Querying table: admins
+[10-Jun-2025 17:27:53 Europe/Berlin] Query result rows: 1
+[10-Jun-2025 17:27:53 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[10-Jun-2025 17:27:53 Europe/Berlin] Admin login successful - ID: 2
+[10-Jun-2025 17:29:36 Europe/Berlin] === New Login Attempt ===
+[10-Jun-2025 17:29:36 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 9999999999
+[10-Jun-2025 17:29:36 Europe/Berlin] Querying table: students
+[10-Jun-2025 17:29:36 Europe/Berlin] Query result rows: 1
+[10-Jun-2025 17:29:36 Europe/Berlin] Found user: {"student_id":6,"first_name":"test","last_name":"testt","registration_no":"KC8464","class_roll":"868","department":"English","session":"2021-2022","email":"test@gmail.com","mobile":"9999999999","password":"$2y$10$LN2pdG80fQM5poudkGS2nOCogrfK0wdEb5DLD\/u9pDvVvAJv\/xcti","status":"active","approved":1,"created_at":"2025-06-10 20:55:38","updated_at":"2025-06-10 20:55:54"}
+[10-Jun-2025 17:30:04 Europe/Berlin] === New Login Attempt ===
+[10-Jun-2025 17:30:04 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[10-Jun-2025 17:30:04 Europe/Berlin] Querying table: admins
+[10-Jun-2025 17:30:04 Europe/Berlin] Query result rows: 1
+[10-Jun-2025 17:30:04 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[10-Jun-2025 17:30:04 Europe/Berlin] Admin login successful - ID: 2
+[10-Jun-2025 17:31:52 Europe/Berlin] === New Login Attempt ===
+[10-Jun-2025 17:31:52 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 9999999999
+[10-Jun-2025 17:31:52 Europe/Berlin] Querying table: students
+[10-Jun-2025 17:31:52 Europe/Berlin] Query result rows: 1
+[10-Jun-2025 17:31:52 Europe/Berlin] Found user: {"student_id":6,"first_name":"test","last_name":"testt","registration_no":"KC8464","class_roll":"868","department":"English","session":"2021-2022","email":"test@gmail.com","mobile":"9999999999","password":"$2y$10$LN2pdG80fQM5poudkGS2nOCogrfK0wdEb5DLD\/u9pDvVvAJv\/xcti","status":"active","approved":1,"created_at":"2025-06-10 20:55:38","updated_at":"2025-06-10 20:55:54"}
+[11-Jun-2025 04:05:55 Europe/Berlin] === New Login Attempt ===
+[11-Jun-2025 04:05:55 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[11-Jun-2025 04:05:55 Europe/Berlin] Querying table: admins
+[11-Jun-2025 04:05:55 Europe/Berlin] Query result rows: 1
+[11-Jun-2025 04:05:55 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[11-Jun-2025 04:05:55 Europe/Berlin] Admin login successful - ID: 2
+[11-Jun-2025 04:06:06 Europe/Berlin] === New Login Attempt ===
+[11-Jun-2025 04:06:06 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 3333333333
+[11-Jun-2025 04:06:06 Europe/Berlin] Querying table: students
+[11-Jun-2025 04:06:06 Europe/Berlin] Query result rows: 1
+[11-Jun-2025 04:06:06 Europe/Berlin] Found user: {"student_id":1,"first_name":"Rahul","last_name":"Roy","registration_no":"3333","class_roll":"3333","department":"Bengali","session":"2025-2026","email":"c@c.com","mobile":"3333333333","password":"$2y$10$elZu.dUFNO8uC9247QJ7Ke5f1kLUGUaJJQ0CeIyQGTYnQNCSDEhl6","status":"active","approved":1,"created_at":"2025-03-19 16:33:14","updated_at":"2025-06-10 19:01:12"}
+[11-Jun-2025 04:06:06 Europe/Berlin] Password verification failed
+[11-Jun-2025 04:06:06 Europe/Berlin] Login error: Invalid password
+[11-Jun-2025 04:06:09 Europe/Berlin] === New Login Attempt ===
+[11-Jun-2025 04:06:09 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 1111111111
+[11-Jun-2025 04:06:09 Europe/Berlin] Querying table: students
+[11-Jun-2025 04:06:09 Europe/Berlin] Query result rows: 0
+[11-Jun-2025 04:06:09 Europe/Berlin] No user found with mobile/ID: 1111111111
+[11-Jun-2025 04:06:09 Europe/Berlin] Login error: User not found
+[11-Jun-2025 04:06:16 Europe/Berlin] === New Login Attempt ===
+[11-Jun-2025 04:06:16 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 4444444444
+[11-Jun-2025 04:06:16 Europe/Berlin] Querying table: students
+[11-Jun-2025 04:06:16 Europe/Berlin] Query result rows: 0
+[11-Jun-2025 04:06:16 Europe/Berlin] No user found with mobile/ID: 4444444444
+[11-Jun-2025 04:06:16 Europe/Berlin] Login error: User not found
+[11-Jun-2025 04:06:19 Europe/Berlin] === New Login Attempt ===
+[11-Jun-2025 04:06:19 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 8888888888
+[11-Jun-2025 04:06:19 Europe/Berlin] Querying table: students
+[11-Jun-2025 04:06:19 Europe/Berlin] Query result rows: 0
+[11-Jun-2025 04:06:19 Europe/Berlin] No user found with mobile/ID: 8888888888
+[11-Jun-2025 04:06:19 Europe/Berlin] Login error: User not found
+[11-Jun-2025 04:06:36 Europe/Berlin] === New Login Attempt ===
+[11-Jun-2025 04:06:36 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 3333333333
+[11-Jun-2025 04:06:36 Europe/Berlin] Querying table: students
+[11-Jun-2025 04:06:36 Europe/Berlin] Query result rows: 1
+[11-Jun-2025 04:06:36 Europe/Berlin] Found user: {"student_id":1,"first_name":"Rahul","last_name":"Roy","registration_no":"3333","class_roll":"3333","department":"Bengali","session":"2025-2026","email":"c@c.com","mobile":"3333333333","password":"$2y$10$elZu.dUFNO8uC9247QJ7Ke5f1kLUGUaJJQ0CeIyQGTYnQNCSDEhl6","status":"active","approved":1,"created_at":"2025-03-19 16:33:14","updated_at":"2025-06-10 19:01:12"}
+[11-Jun-2025 04:06:36 Europe/Berlin] Password verification failed
+[11-Jun-2025 04:06:36 Europe/Berlin] Login error: Invalid password
+[11-Jun-2025 04:06:45 Europe/Berlin] === New Login Attempt ===
+[11-Jun-2025 04:06:45 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 8888444477
+[11-Jun-2025 04:06:45 Europe/Berlin] Querying table: students
+[11-Jun-2025 04:06:45 Europe/Berlin] Query result rows: 1
+[11-Jun-2025 04:06:45 Europe/Berlin] Found user: {"student_id":2,"first_name":"Rahul","last_name":"Das","registration_no":"4444","class_roll":"4444","department":"English","session":"2023-2024","email":"d@d.com","mobile":"8888444477","password":"$2y$10$elZu.dUFNO8uC9247QJ7Ke5f1kLUGUaJJQ0CeIyQGTYnQNCSDEhl6","status":"active","approved":1,"created_at":"2025-03-19 16:42:31","updated_at":"2025-06-10 16:21:24"}
+[11-Jun-2025 04:07:09 Europe/Berlin] === New Login Attempt ===
+[11-Jun-2025 04:07:09 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 9999999999
+[11-Jun-2025 04:07:09 Europe/Berlin] Querying table: students
+[11-Jun-2025 04:07:09 Europe/Berlin] Query result rows: 1
+[11-Jun-2025 04:07:09 Europe/Berlin] Found user: {"student_id":6,"first_name":"test","last_name":"testt","registration_no":"KC8464","class_roll":"868","department":"English","session":"2021-2022","email":"test@gmail.com","mobile":"9999999999","password":"$2y$10$LN2pdG80fQM5poudkGS2nOCogrfK0wdEb5DLD\/u9pDvVvAJv\/xcti","status":"active","approved":1,"created_at":"2025-06-10 20:55:38","updated_at":"2025-06-10 20:55:54"}
+[11-Jun-2025 04:07:09 Europe/Berlin] Password verification failed
+[11-Jun-2025 04:07:09 Europe/Berlin] Login error: Invalid password
+[11-Jun-2025 04:07:13 Europe/Berlin] === New Login Attempt ===
+[11-Jun-2025 04:07:13 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: shanroy@gmail.com
+[11-Jun-2025 04:07:28 Europe/Berlin] === New Login Attempt ===
+[11-Jun-2025 04:07:28 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 9999999999
+[11-Jun-2025 04:07:28 Europe/Berlin] Querying table: students
+[11-Jun-2025 04:07:28 Europe/Berlin] Query result rows: 1
+[11-Jun-2025 04:07:28 Europe/Berlin] Found user: {"student_id":6,"first_name":"test","last_name":"testt","registration_no":"KC8464","class_roll":"868","department":"English","session":"2021-2022","email":"test@gmail.com","mobile":"9999999999","password":"$2y$10$LN2pdG80fQM5poudkGS2nOCogrfK0wdEb5DLD\/u9pDvVvAJv\/xcti","status":"active","approved":1,"created_at":"2025-06-10 20:55:38","updated_at":"2025-06-10 20:55:54"}
+[11-Jun-2025 04:07:28 Europe/Berlin] Password verification failed
+[11-Jun-2025 04:07:28 Europe/Berlin] Login error: Invalid password
+[11-Jun-2025 04:08:35 Europe/Berlin] === New Login Attempt ===
+[11-Jun-2025 04:08:35 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1111111111
+[11-Jun-2025 04:08:35 Europe/Berlin] Querying table: departments
+[11-Jun-2025 04:08:35 Europe/Berlin] Query result rows: 1
+[11-Jun-2025 04:08:35 Europe/Berlin] Found user: {"department_id":3,"department":"English","hod_name":"Sudip Sinha","hod_email":"a@a.com","hod_mobile":"1111111111","password":"$2y$10$zgSsqpMqE91tJfPar4ulBeN\/k3SFeiZYjUv58NoxIeAlqYzIMrpR2","approved":1,"created_at":"2025-03-19 15:26:07"}
+[11-Jun-2025 04:08:47 Europe/Berlin] === New Login Attempt ===
+[11-Jun-2025 04:08:47 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 1414141414
+[11-Jun-2025 04:08:47 Europe/Berlin] Querying table: students
+[11-Jun-2025 04:08:47 Europe/Berlin] Query result rows: 1
+[11-Jun-2025 04:08:47 Europe/Berlin] Found user: {"student_id":7,"first_name":"testA","last_name":"a","registration_no":"hx33","class_roll":"4554","department":"English","session":"2025-2026","email":"testa@gmail.com","mobile":"1414141414","password":"$2y$10$rR2AeibtzSmQrVvOqKJfz.sGevsHTr5\/tW5dmWF2GR7pE2EfWBEOq","status":"active","approved":1,"created_at":"2025-06-11 07:38:21","updated_at":"2025-06-11 07:38:40"}
+[11-Jun-2025 04:09:54 Europe/Berlin] === New Login Attempt ===
+[11-Jun-2025 04:09:54 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[11-Jun-2025 04:09:54 Europe/Berlin] Querying table: admins
+[11-Jun-2025 04:09:54 Europe/Berlin] Query result rows: 1
+[11-Jun-2025 04:09:54 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[11-Jun-2025 04:09:54 Europe/Berlin] Admin login successful - ID: 2
+[11-Jun-2025 08:54:06 Europe/Berlin] === New Login Attempt ===
+[11-Jun-2025 08:54:06 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[11-Jun-2025 08:54:06 Europe/Berlin] Querying table: admins
+[11-Jun-2025 08:54:06 Europe/Berlin] Query result rows: 1
+[11-Jun-2025 08:54:06 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[11-Jun-2025 08:54:06 Europe/Berlin] Admin login successful - ID: 2
+[11-Jun-2025 09:02:22 Europe/Berlin] === New Login Attempt ===
+[11-Jun-2025 09:02:22 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[11-Jun-2025 09:02:22 Europe/Berlin] Querying table: admins
+[11-Jun-2025 09:02:22 Europe/Berlin] Query result rows: 1
+[11-Jun-2025 09:02:22 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[11-Jun-2025 09:02:22 Europe/Berlin] Admin login successful - ID: 2
+[11-Jun-2025 09:34:20 Europe/Berlin] === New Login Attempt ===
+[11-Jun-2025 09:34:20 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[11-Jun-2025 09:34:20 Europe/Berlin] Querying table: admins
+[11-Jun-2025 09:34:20 Europe/Berlin] Query result rows: 1
+[11-Jun-2025 09:34:20 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[11-Jun-2025 09:34:20 Europe/Berlin] Admin password mismatch
+[11-Jun-2025 09:34:20 Europe/Berlin] Login error: Invalid password
+[11-Jun-2025 09:34:38 Europe/Berlin] === New Login Attempt ===
+[11-Jun-2025 09:34:38 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 1234567890
+[11-Jun-2025 09:34:38 Europe/Berlin] Querying table: students
+[11-Jun-2025 09:34:38 Europe/Berlin] Query result rows: 0
+[11-Jun-2025 09:34:38 Europe/Berlin] No user found with mobile/ID: 1234567890
+[11-Jun-2025 09:34:38 Europe/Berlin] Login error: User not found
+[11-Jun-2025 09:35:03 Europe/Berlin] === New Login Attempt ===
+[11-Jun-2025 09:35:03 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[11-Jun-2025 09:35:03 Europe/Berlin] Querying table: admins
+[11-Jun-2025 09:35:03 Europe/Berlin] Query result rows: 1
+[11-Jun-2025 09:35:03 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[11-Jun-2025 09:35:03 Europe/Berlin] Admin login successful - ID: 2
+[11-Jun-2025 09:36:26 Europe/Berlin] === New Login Attempt ===
+[11-Jun-2025 09:36:26 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[11-Jun-2025 09:36:26 Europe/Berlin] Querying table: admins
+[11-Jun-2025 09:36:26 Europe/Berlin] Query result rows: 1
+[11-Jun-2025 09:36:26 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[11-Jun-2025 09:36:26 Europe/Berlin] Admin login successful - ID: 2
+[11-Jun-2025 09:40:59 Europe/Berlin] === New Login Attempt ===
+[11-Jun-2025 09:40:59 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[11-Jun-2025 09:40:59 Europe/Berlin] Querying table: admins
+[11-Jun-2025 09:40:59 Europe/Berlin] Query result rows: 1
+[11-Jun-2025 09:40:59 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[11-Jun-2025 09:40:59 Europe/Berlin] Admin login successful - ID: 2
+[11-Jun-2025 09:44:47 Europe/Berlin] === New Login Attempt ===
+[11-Jun-2025 09:44:47 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1212121212
+[11-Jun-2025 09:44:47 Europe/Berlin] Querying table: departments
+[11-Jun-2025 09:44:47 Europe/Berlin] Query result rows: 0
+[11-Jun-2025 09:44:47 Europe/Berlin] No user found with mobile/ID: 1212121212
+[11-Jun-2025 09:44:47 Europe/Berlin] Login error: User not found
+[11-Jun-2025 09:46:01 Europe/Berlin] === New Login Attempt ===
+[11-Jun-2025 09:46:01 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[11-Jun-2025 09:46:01 Europe/Berlin] Querying table: admins
+[11-Jun-2025 09:46:01 Europe/Berlin] Query result rows: 1
+[11-Jun-2025 09:46:01 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[11-Jun-2025 09:46:01 Europe/Berlin] Admin login successful - ID: 2
+[11-Jun-2025 09:46:33 Europe/Berlin] === New Login Attempt ===
+[11-Jun-2025 09:46:33 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[11-Jun-2025 09:46:33 Europe/Berlin] Querying table: admins
+[11-Jun-2025 09:46:33 Europe/Berlin] Query result rows: 1
+[11-Jun-2025 09:46:33 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[11-Jun-2025 09:46:33 Europe/Berlin] Admin login successful - ID: 2
+[11-Jun-2025 09:46:41 Europe/Berlin] === New Login Attempt ===
+[11-Jun-2025 09:46:41 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1212121212
+[11-Jun-2025 09:46:41 Europe/Berlin] Querying table: departments
+[11-Jun-2025 09:46:41 Europe/Berlin] Query result rows: 1
+[11-Jun-2025 09:46:41 Europe/Berlin] Found user: {"department_id":8,"department":"Computer Science and Application","hod_name":"Sudip","hod_email":"test@gmail.com","hod_mobile":"1212121212","password":"$2y$10$mDGsVWERleUq6Q1uO\/4WKelb\/\/6H5xuDOMWrVCTTx0cgFODpnLuSO","approved":1,"created_at":"2025-06-11 13:15:14"}
+[11-Jun-2025 09:57:46 Europe/Berlin] === New Login Attempt ===
+[11-Jun-2025 09:57:46 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1212121212
+[11-Jun-2025 09:57:46 Europe/Berlin] Querying table: departments
+[11-Jun-2025 09:57:46 Europe/Berlin] Query result rows: 1
+[11-Jun-2025 09:57:46 Europe/Berlin] Found user: {"department_id":8,"department":"Computer Science and Application","hod_name":"Sudip Sukla","hod_email":"test@gmail.com","hod_mobile":"1212121212","password":"$2y$10$mDGsVWERleUq6Q1uO\/4WKelb\/\/6H5xuDOMWrVCTTx0cgFODpnLuSO","approved":1,"created_at":"2025-06-11 13:15:14"}
+[11-Jun-2025 09:59:03 Europe/Berlin] === New Login Attempt ===
+[11-Jun-2025 09:59:03 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 1414141414
+[11-Jun-2025 09:59:03 Europe/Berlin] Querying table: students
+[11-Jun-2025 09:59:03 Europe/Berlin] Query result rows: 1
+[11-Jun-2025 09:59:03 Europe/Berlin] Found user: {"student_id":8,"first_name":"Rahul","last_name":"N","registration_no":"1234","class_roll":"1234","department":"Computer Science and Application","session":"2025-2026","email":"teastb@gmail.com","mobile":"1414141414","password":"$2y$10$PHgerf1becgM1220m1KkMeo\/RaOUJOQ8c8J4sdR.O0lRQoS7CTvvO","status":"active","approved":1,"created_at":"2025-06-11 13:26:17","updated_at":"2025-06-11 13:28:41"}
+[11-Jun-2025 09:59:24 Europe/Berlin] === New Login Attempt ===
+[11-Jun-2025 09:59:24 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[11-Jun-2025 09:59:24 Europe/Berlin] Querying table: admins
+[11-Jun-2025 09:59:24 Europe/Berlin] Query result rows: 1
+[11-Jun-2025 09:59:24 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[11-Jun-2025 09:59:24 Europe/Berlin] Admin login successful - ID: 2
+[11-Jun-2025 10:13:06 Europe/Berlin] === New Login Attempt ===
+[11-Jun-2025 10:13:06 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 1313131313
+[11-Jun-2025 10:13:06 Europe/Berlin] Querying table: students
+[11-Jun-2025 10:13:06 Europe/Berlin] Query result rows: 0
+[11-Jun-2025 10:13:06 Europe/Berlin] No user found with mobile/ID: 1313131313
+[11-Jun-2025 10:13:06 Europe/Berlin] Login error: User not found
+[11-Jun-2025 10:13:09 Europe/Berlin] === New Login Attempt ===
+[11-Jun-2025 10:13:09 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 1414141414
+[11-Jun-2025 10:13:09 Europe/Berlin] Querying table: students
+[11-Jun-2025 10:13:09 Europe/Berlin] Query result rows: 1
+[11-Jun-2025 10:13:09 Europe/Berlin] Found user: {"student_id":8,"first_name":"Rahul","last_name":"N","registration_no":"1234","class_roll":"1234","department":"Computer Science and Application","session":"2025-2026","email":"teastb@gmail.com","mobile":"1414141414","password":"$2y$10$PHgerf1becgM1220m1KkMeo\/RaOUJOQ8c8J4sdR.O0lRQoS7CTvvO","status":"active","approved":1,"created_at":"2025-06-11 13:26:17","updated_at":"2025-06-11 13:28:41"}
+[11-Jun-2025 10:13:40 Europe/Berlin] === New Login Attempt ===
+[11-Jun-2025 10:13:40 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[11-Jun-2025 10:13:40 Europe/Berlin] Querying table: admins
+[11-Jun-2025 10:13:40 Europe/Berlin] Query result rows: 1
+[11-Jun-2025 10:13:40 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[11-Jun-2025 10:13:40 Europe/Berlin] Admin login successful - ID: 2
+[11-Jun-2025 10:16:34 Europe/Berlin] === New Login Attempt ===
+[11-Jun-2025 10:16:34 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 1414141414
+[11-Jun-2025 10:16:34 Europe/Berlin] Querying table: students
+[11-Jun-2025 10:16:34 Europe/Berlin] Query result rows: 1
+[11-Jun-2025 10:16:34 Europe/Berlin] Found user: {"student_id":8,"first_name":"Rahul","last_name":"N","registration_no":"1234","class_roll":"1234","department":"Computer Science and Application","session":"2025-2026","email":"teastb@gmail.com","mobile":"1414141414","password":"$2y$10$PHgerf1becgM1220m1KkMeo\/RaOUJOQ8c8J4sdR.O0lRQoS7CTvvO","status":"active","approved":1,"created_at":"2025-06-11 13:26:17","updated_at":"2025-06-11 13:28:41"}
+[11-Jun-2025 10:16:44 Europe/Berlin] === New Login Attempt ===
+[11-Jun-2025 10:16:44 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[11-Jun-2025 10:16:44 Europe/Berlin] Querying table: admins
+[11-Jun-2025 10:16:44 Europe/Berlin] Query result rows: 1
+[11-Jun-2025 10:16:44 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[11-Jun-2025 10:16:44 Europe/Berlin] Admin login successful - ID: 2
+[11-Jun-2025 10:18:54 Europe/Berlin] === New Login Attempt ===
+[11-Jun-2025 10:18:54 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 1414141414
+[11-Jun-2025 10:18:54 Europe/Berlin] Querying table: students
+[11-Jun-2025 10:18:54 Europe/Berlin] Query result rows: 1
+[11-Jun-2025 10:18:54 Europe/Berlin] Found user: {"student_id":8,"first_name":"Rahul","last_name":"N","registration_no":"1234","class_roll":"1234","department":"Computer Science and Application","session":"2025-2026","email":"teastb@gmail.com","mobile":"1414141414","password":"$2y$10$PHgerf1becgM1220m1KkMeo\/RaOUJOQ8c8J4sdR.O0lRQoS7CTvvO","status":"active","approved":1,"created_at":"2025-06-11 13:26:17","updated_at":"2025-06-11 13:28:41"}
+[12-Jun-2025 19:20:48 Europe/Berlin] === New Login Attempt ===
+[12-Jun-2025 19:20:48 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[12-Jun-2025 19:20:48 Europe/Berlin] Querying table: admins
+[12-Jun-2025 19:20:48 Europe/Berlin] Query result rows: 1
+[12-Jun-2025 19:20:48 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[12-Jun-2025 19:20:48 Europe/Berlin] Admin login successful - ID: 2
+[12-Jun-2025 19:34:18 Europe/Berlin] === New Login Attempt ===
+[12-Jun-2025 19:34:18 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1212121212
+[12-Jun-2025 19:34:18 Europe/Berlin] Querying table: departments
+[12-Jun-2025 19:34:18 Europe/Berlin] Query result rows: 1
+[12-Jun-2025 19:34:18 Europe/Berlin] Found user: {"department_id":8,"department":"Computer Science and Application","hod_name":"Sudip Sukla","hod_email":"test@gmail.com","hod_mobile":"1212121212","password":"$2y$10$mDGsVWERleUq6Q1uO\/4WKelb\/\/6H5xuDOMWrVCTTx0cgFODpnLuSO","approved":1,"created_at":"2025-06-11 13:15:14"}
+[12-Jun-2025 19:42:49 Europe/Berlin] === New Login Attempt ===
+[12-Jun-2025 19:42:49 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1212121212
+[12-Jun-2025 19:42:49 Europe/Berlin] Querying table: departments
+[12-Jun-2025 19:42:49 Europe/Berlin] Query result rows: 1
+[12-Jun-2025 19:42:49 Europe/Berlin] Found user: {"department_id":8,"department":"Computer Science and Application","hod_name":"Dr. Sudip Suklabidya","hod_email":"test@gmail.com","hod_mobile":"1212121212","password":"$2y$10$mDGsVWERleUq6Q1uO\/4WKelb\/\/6H5xuDOMWrVCTTx0cgFODpnLuSO","approved":1,"created_at":"2025-06-11 13:15:14"}
+[12-Jun-2025 19:44:10 Europe/Berlin] === New Login Attempt ===
+[12-Jun-2025 19:44:10 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[12-Jun-2025 19:44:10 Europe/Berlin] Querying table: admins
+[12-Jun-2025 19:44:10 Europe/Berlin] Query result rows: 1
+[12-Jun-2025 19:44:10 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[12-Jun-2025 19:44:10 Europe/Berlin] Admin login successful - ID: 2
+[12-Jun-2025 19:47:04 Europe/Berlin] === New Login Attempt ===
+[12-Jun-2025 19:47:04 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 2121212121
+[12-Jun-2025 19:47:04 Europe/Berlin] Querying table: students
+[12-Jun-2025 19:47:04 Europe/Berlin] Query result rows: 1
+[12-Jun-2025 19:47:04 Europe/Berlin] Found user: {"student_id":12,"first_name":"Raja","last_name":"Das","registration_no":"1234567","class_roll":"1000","department":"Computer Science and Application","session":"2025-2026","email":"ex34@gmail.com","mobile":"2121212121","password":"$2y$10$tPELohD2bbmcP06gcv4cheRgCGztmhzgCsGT54h1xuMJmCGRVmDE2","status":"active","approved":1,"created_at":"2025-06-12 23:12:28","updated_at":"2025-06-12 23:12:58"}
+[12-Jun-2025 19:47:32 Europe/Berlin] === New Login Attempt ===
+[12-Jun-2025 19:47:32 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[12-Jun-2025 19:47:32 Europe/Berlin] Querying table: admins
+[12-Jun-2025 19:47:32 Europe/Berlin] Query result rows: 1
+[12-Jun-2025 19:47:32 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[12-Jun-2025 19:47:32 Europe/Berlin] Admin login successful - ID: 2
+[12-Jun-2025 19:50:41 Europe/Berlin] === New Login Attempt ===
+[12-Jun-2025 19:50:41 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 2121212121
+[12-Jun-2025 19:50:41 Europe/Berlin] Querying table: students
+[12-Jun-2025 19:50:41 Europe/Berlin] Query result rows: 1
+[12-Jun-2025 19:50:41 Europe/Berlin] Found user: {"student_id":12,"first_name":"Raja","last_name":"Das","registration_no":"1234567","class_roll":"1000","department":"Computer Science and Application","session":"2025-2026","email":"ex34@gmail.com","mobile":"2121212121","password":"$2y$10$tPELohD2bbmcP06gcv4cheRgCGztmhzgCsGT54h1xuMJmCGRVmDE2","status":"active","approved":1,"created_at":"2025-06-12 23:12:28","updated_at":"2025-06-12 23:12:58"}
+[12-Jun-2025 19:53:35 Europe/Berlin] === New Login Attempt ===
+[12-Jun-2025 19:53:35 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[12-Jun-2025 19:53:35 Europe/Berlin] Querying table: admins
+[12-Jun-2025 19:53:35 Europe/Berlin] Query result rows: 1
+[12-Jun-2025 19:53:35 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[12-Jun-2025 19:53:35 Europe/Berlin] Admin login successful - ID: 2
+[12-Jun-2025 19:56:00 Europe/Berlin] === New Login Attempt ===
+[12-Jun-2025 19:56:00 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 2121212121
+[12-Jun-2025 19:56:00 Europe/Berlin] Querying table: students
+[12-Jun-2025 19:56:00 Europe/Berlin] Query result rows: 1
+[12-Jun-2025 19:56:00 Europe/Berlin] Found user: {"student_id":12,"first_name":"Raja","last_name":"Das","registration_no":"1234567","class_roll":"1000","department":"Computer Science and Application","session":"2025-2026","email":"ex34@gmail.com","mobile":"2121212121","password":"$2y$10$tPELohD2bbmcP06gcv4cheRgCGztmhzgCsGT54h1xuMJmCGRVmDE2","status":"active","approved":1,"created_at":"2025-06-12 23:12:28","updated_at":"2025-06-12 23:12:58"}
+[12-Jun-2025 19:56:33 Europe/Berlin] === New Login Attempt ===
+[12-Jun-2025 19:56:33 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[12-Jun-2025 19:56:33 Europe/Berlin] Querying table: admins
+[12-Jun-2025 19:56:33 Europe/Berlin] Query result rows: 1
+[12-Jun-2025 19:56:33 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[12-Jun-2025 19:56:33 Europe/Berlin] Admin login successful - ID: 2
+[12-Jun-2025 20:06:23 Europe/Berlin] === New Login Attempt ===
+[12-Jun-2025 20:06:23 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 2121212121
+[12-Jun-2025 20:06:23 Europe/Berlin] Querying table: departments
+[12-Jun-2025 20:06:23 Europe/Berlin] Query result rows: 0
+[12-Jun-2025 20:06:23 Europe/Berlin] No user found with mobile/ID: 2121212121
+[12-Jun-2025 20:06:23 Europe/Berlin] Login error: User not found
+[12-Jun-2025 20:06:32 Europe/Berlin] === New Login Attempt ===
+[12-Jun-2025 20:06:32 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 2121212121
+[12-Jun-2025 20:06:32 Europe/Berlin] Querying table: students
+[12-Jun-2025 20:06:32 Europe/Berlin] Query result rows: 1
+[12-Jun-2025 20:06:32 Europe/Berlin] Found user: {"student_id":12,"first_name":"Raja","last_name":"Das","registration_no":"1234567","class_roll":"1000","department":"Computer Science and Application","session":"2025-2026","email":"ex34@gmail.com","mobile":"2121212121","password":"$2y$10$tPELohD2bbmcP06gcv4cheRgCGztmhzgCsGT54h1xuMJmCGRVmDE2","status":"active","approved":1,"created_at":"2025-06-12 23:12:28","updated_at":"2025-06-12 23:12:58"}
+[12-Jun-2025 20:07:15 Europe/Berlin] === New Login Attempt ===
+[12-Jun-2025 20:07:15 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[12-Jun-2025 20:07:15 Europe/Berlin] Querying table: admins
+[12-Jun-2025 20:07:15 Europe/Berlin] Query result rows: 1
+[12-Jun-2025 20:07:15 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[12-Jun-2025 20:07:15 Europe/Berlin] Admin login successful - ID: 2
+[13-Jun-2025 04:13:49 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 04:13:49 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 2121212121
+[13-Jun-2025 04:13:49 Europe/Berlin] Querying table: students
+[13-Jun-2025 04:13:49 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 04:13:49 Europe/Berlin] Found user: {"student_id":12,"first_name":"Raja","last_name":"Das","registration_no":"1234567","class_roll":"1000","department":"Computer Science and Application","session":"2025-2026","email":"ex34@gmail.com","mobile":"2121212121","password":"$2y$10$tPELohD2bbmcP06gcv4cheRgCGztmhzgCsGT54h1xuMJmCGRVmDE2","status":"active","approved":1,"created_at":"2025-06-12 23:12:28","updated_at":"2025-06-12 23:12:58"}
+[13-Jun-2025 04:14:08 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 04:14:08 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[13-Jun-2025 04:14:08 Europe/Berlin] Querying table: admins
+[13-Jun-2025 04:14:08 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 04:14:08 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[13-Jun-2025 04:14:08 Europe/Berlin] Admin login successful - ID: 2
+[13-Jun-2025 04:15:31 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 04:15:31 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 2121212121
+[13-Jun-2025 04:15:31 Europe/Berlin] Querying table: students
+[13-Jun-2025 04:15:31 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 04:15:31 Europe/Berlin] Found user: {"student_id":12,"first_name":"Raja","last_name":"Das","registration_no":"1234567","class_roll":"1000","department":"Computer Science and Application","session":"2025-2026","email":"ex34@gmail.com","mobile":"2121212121","password":"$2y$10$tPELohD2bbmcP06gcv4cheRgCGztmhzgCsGT54h1xuMJmCGRVmDE2","status":"active","approved":1,"created_at":"2025-06-12 23:12:28","updated_at":"2025-06-12 23:12:58"}
+[13-Jun-2025 04:29:10 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 04:29:10 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 8822411064
+[13-Jun-2025 04:29:10 Europe/Berlin] Querying table: students
+[13-Jun-2025 04:29:10 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 04:29:10 Europe/Berlin] Found user: {"student_id":11,"first_name":"AMINUL","last_name":"ISLAM","registration_no":"20220007157","class_roll":"1072","department":"Computer Science and Application","session":"2022-2023","email":"example3444@gmail.com","mobile":"8822411064","password":"$2y$10$A3YHkuG9kUEgXLZPixMC8u8SKQ3IL9dP1WOGqdFKaSD163O33eyqC","status":"active","approved":1,"created_at":"2025-06-12 23:09:58","updated_at":"2025-06-12 23:12:57"}
+[13-Jun-2025 04:29:30 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 04:29:30 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 8822411064
+[13-Jun-2025 04:29:30 Europe/Berlin] Querying table: admins
+[13-Jun-2025 04:29:30 Europe/Berlin] Query result rows: 0
+[13-Jun-2025 04:29:30 Europe/Berlin] No user found with mobile/ID: 8822411064
+[13-Jun-2025 04:29:30 Europe/Berlin] Login error: User not found
+[13-Jun-2025 04:29:35 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 04:29:35 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[13-Jun-2025 04:29:35 Europe/Berlin] Querying table: admins
+[13-Jun-2025 04:29:35 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 04:29:35 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[13-Jun-2025 04:29:35 Europe/Berlin] Admin login successful - ID: 2
+[13-Jun-2025 05:35:57 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 05:35:57 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1212121212
+[13-Jun-2025 05:35:57 Europe/Berlin] Querying table: departments
+[13-Jun-2025 05:35:57 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 05:35:57 Europe/Berlin] Found user: {"department_id":8,"department":"Computer Science and Application","hod_name":"Dr. Sudip Suklabidya","hod_email":"test@gmail.com","hod_mobile":"1212121212","password":"$2y$10$mDGsVWERleUq6Q1uO\/4WKelb\/\/6H5xuDOMWrVCTTx0cgFODpnLuSO","approved":1,"created_at":"2025-06-11 13:15:14"}
+[13-Jun-2025 05:36:16 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 05:36:16 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 6767676767
+[13-Jun-2025 05:36:16 Europe/Berlin] Querying table: students
+[13-Jun-2025 05:36:16 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 05:36:16 Europe/Berlin] Found user: {"student_id":13,"first_name":"DEVOPRIYO","last_name":"DEY","registration_no":"5678","class_roll":"5678","department":"Computer Science and Application","session":"2025-2026","email":"test@gmail.com","mobile":"6767676767","password":"$2y$10$2NbTbEO0qJQUjcQ3Wjht\/un71ZHBJuOS1pmHK7Nr.Wz4sMSmnKq\/e","status":"active","approved":1,"created_at":"2025-06-13 09:05:28","updated_at":"2025-06-13 09:06:02"}
+[13-Jun-2025 05:39:30 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 05:39:30 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1212121212
+[13-Jun-2025 05:39:30 Europe/Berlin] Querying table: departments
+[13-Jun-2025 05:39:30 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 05:39:30 Europe/Berlin] Found user: {"department_id":8,"department":"Computer Science and Application","hod_name":"Dr. Sudip Suklabidya","hod_email":"test@gmail.com","hod_mobile":"1212121212","password":"$2y$10$mDGsVWERleUq6Q1uO\/4WKelb\/\/6H5xuDOMWrVCTTx0cgFODpnLuSO","approved":1,"created_at":"2025-06-11 13:15:14"}
+[13-Jun-2025 05:39:59 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 05:39:59 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 9696969696
+[13-Jun-2025 05:39:59 Europe/Berlin] Querying table: students
+[13-Jun-2025 05:39:59 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 05:39:59 Europe/Berlin] Found user: {"student_id":14,"first_name":"Md. Abdul","last_name":"Wahid","registration_no":"20220015433","class_roll":"1233","department":"Computer Science and Application","session":"2022-2023","email":"exanmple788@gmail.com","mobile":"9696969696","password":"$2y$10$z3tNGyuGYqzEoJ7eQ097geX7GQ0XsGIIziqHj\/hKZDpHpDZF7.7Eu","status":"active","approved":1,"created_at":"2025-06-13 09:09:12","updated_at":"2025-06-13 09:09:41"}
+[13-Jun-2025 06:00:11 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 06:00:11 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1212121212
+[13-Jun-2025 06:00:11 Europe/Berlin] Querying table: departments
+[13-Jun-2025 06:00:11 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 06:00:11 Europe/Berlin] Found user: {"department_id":8,"department":"Computer Science and Application","hod_name":"Dr. Sudip Suklabidya","hod_email":"test@gmail.com","hod_mobile":"1212121212","password":"$2y$10$mDGsVWERleUq6Q1uO\/4WKelb\/\/6H5xuDOMWrVCTTx0cgFODpnLuSO","approved":1,"created_at":"2025-06-11 13:15:14"}
+[13-Jun-2025 06:00:37 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 06:00:37 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 3636363636
+[13-Jun-2025 06:00:37 Europe/Berlin] Querying table: students
+[13-Jun-2025 06:00:37 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 06:00:37 Europe/Berlin] Found user: {"student_id":15,"first_name":"Piali","last_name":"Singha","registration_no":"4444","class_roll":"1028","department":"Computer Science and Application","session":"2022-2023","email":"ex@gmail.com","mobile":"3636363636","password":"$2y$10$PyzkoL3t4KihdWia4cFrf.HYA5D4DtQEAQ3cqzMmctzyokLWJO29O","status":"active","approved":1,"created_at":"2025-06-13 09:29:32","updated_at":"2025-06-13 09:30:17"}
+[13-Jun-2025 06:05:30 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 06:05:30 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 8585
+[13-Jun-2025 06:05:30 Europe/Berlin] Querying table: departments
+[13-Jun-2025 06:05:30 Europe/Berlin] Query result rows: 0
+[13-Jun-2025 06:05:30 Europe/Berlin] No user found with mobile/ID: 8585
+[13-Jun-2025 06:05:30 Europe/Berlin] Login error: User not found
+[13-Jun-2025 06:05:55 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 06:05:55 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 8585858585
+[13-Jun-2025 06:05:55 Europe/Berlin] Querying table: students
+[13-Jun-2025 06:05:55 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 06:05:55 Europe/Berlin] Found user: {"student_id":16,"first_name":"pia","last_name":"Singha","registration_no":"20220007","class_roll":"11","department":"Computer Science and Application","session":"2022-2023","email":"esp@gmail.com","mobile":"8585858585","password":"$2y$10$bt4jyjB2TkpkA\/PYqTAVDeHDHMynqlgQnuaUrc.y6wqynz8kAb0rS","status":"pending","approved":0,"created_at":"2025-06-13 09:34:58","updated_at":"2025-06-13 09:34:58"}
+[13-Jun-2025 06:05:56 Europe/Berlin] Password verification failed
+[13-Jun-2025 06:05:56 Europe/Berlin] Login error: Invalid password
+[13-Jun-2025 06:06:07 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 06:06:07 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 3636363636
+[13-Jun-2025 06:06:07 Europe/Berlin] Querying table: students
+[13-Jun-2025 06:06:07 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 06:06:07 Europe/Berlin] Found user: {"student_id":15,"first_name":"Piali","last_name":"Singha","registration_no":"4444","class_roll":"1028","department":"Computer Science and Application","session":"2022-2023","email":"ex@gmail.com","mobile":"3636363636","password":"$2y$10$PyzkoL3t4KihdWia4cFrf.HYA5D4DtQEAQ3cqzMmctzyokLWJO29O","status":"active","approved":1,"created_at":"2025-06-13 09:29:32","updated_at":"2025-06-13 09:30:17"}
+[13-Jun-2025 06:06:07 Europe/Berlin] Password verification failed
+[13-Jun-2025 06:06:07 Europe/Berlin] Login error: Invalid password
+[13-Jun-2025 06:06:45 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 06:06:45 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 8585858585
+[13-Jun-2025 06:06:45 Europe/Berlin] Querying table: departments
+[13-Jun-2025 06:06:45 Europe/Berlin] Query result rows: 0
+[13-Jun-2025 06:06:45 Europe/Berlin] No user found with mobile/ID: 8585858585
+[13-Jun-2025 06:06:45 Europe/Berlin] Login error: User not found
+[13-Jun-2025 06:07:56 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 06:07:56 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1212121212
+[13-Jun-2025 06:07:56 Europe/Berlin] Querying table: departments
+[13-Jun-2025 06:07:56 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 06:07:56 Europe/Berlin] Found user: {"department_id":8,"department":"Computer Science and Application","hod_name":"Dr. Sudip Suklabidya","hod_email":"test@gmail.com","hod_mobile":"1212121212","password":"$2y$10$mDGsVWERleUq6Q1uO\/4WKelb\/\/6H5xuDOMWrVCTTx0cgFODpnLuSO","approved":1,"created_at":"2025-06-11 13:15:14"}
+[13-Jun-2025 06:08:26 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 06:08:26 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 8585858585
+[13-Jun-2025 06:08:26 Europe/Berlin] Querying table: students
+[13-Jun-2025 06:08:26 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 06:08:26 Europe/Berlin] Found user: {"student_id":16,"first_name":"pia","last_name":"Singha","registration_no":"20220007","class_roll":"11","department":"Computer Science and Application","session":"2022-2023","email":"esp@gmail.com","mobile":"8585858585","password":"$2y$10$bt4jyjB2TkpkA\/PYqTAVDeHDHMynqlgQnuaUrc.y6wqynz8kAb0rS","status":"active","approved":1,"created_at":"2025-06-13 09:34:58","updated_at":"2025-06-13 09:38:01"}
+[13-Jun-2025 06:08:27 Europe/Berlin] Password verification failed
+[13-Jun-2025 06:08:27 Europe/Berlin] Login error: Invalid password
+[13-Jun-2025 06:08:47 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 06:08:47 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 8585858585
+[13-Jun-2025 06:08:47 Europe/Berlin] Querying table: students
+[13-Jun-2025 06:08:47 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 06:08:47 Europe/Berlin] Found user: {"student_id":16,"first_name":"pia","last_name":"Singha","registration_no":"20220007","class_roll":"11","department":"Computer Science and Application","session":"2022-2023","email":"esp@gmail.com","mobile":"8585858585","password":"$2y$10$bt4jyjB2TkpkA\/PYqTAVDeHDHMynqlgQnuaUrc.y6wqynz8kAb0rS","status":"active","approved":1,"created_at":"2025-06-13 09:34:58","updated_at":"2025-06-13 09:38:01"}
+[13-Jun-2025 06:09:45 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 06:09:45 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[13-Jun-2025 06:09:45 Europe/Berlin] Querying table: admins
+[13-Jun-2025 06:09:45 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 06:09:45 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[13-Jun-2025 06:09:45 Europe/Berlin] Admin login successful - ID: 2
+[13-Jun-2025 06:12:18 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 06:12:18 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[13-Jun-2025 06:12:18 Europe/Berlin] Querying table: admins
+[13-Jun-2025 06:12:18 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 06:12:18 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[13-Jun-2025 06:12:18 Europe/Berlin] Admin login successful - ID: 2
+[13-Jun-2025 06:17:13 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 06:17:13 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1212121212
+[13-Jun-2025 06:17:13 Europe/Berlin] Querying table: departments
+[13-Jun-2025 06:17:13 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 06:17:13 Europe/Berlin] Found user: {"department_id":8,"department":"Computer Science and Application","hod_name":"Dr. Sudip Suklabidya","hod_email":"test@gmail.com","hod_mobile":"1212121212","password":"$2y$10$mDGsVWERleUq6Q1uO\/4WKelb\/\/6H5xuDOMWrVCTTx0cgFODpnLuSO","approved":1,"created_at":"2025-06-11 13:15:14"}
+[13-Jun-2025 06:17:37 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 06:17:37 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 7878787878
+[13-Jun-2025 06:17:37 Europe/Berlin] Querying table: departments
+[13-Jun-2025 06:17:37 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 06:17:37 Europe/Berlin] Found user: {"department_id":11,"department":"History","hod_name":"Dr. Sakir Hussain Choudhury","hod_email":"exe123@gmail.com","hod_mobile":"7878787878","password":"$2y$10$pRK5KLXRavywGVi0H.4jNe0goTX2YF\/QbdTnI5eb1ym9NLBtUiQlG","approved":1,"created_at":"2025-06-13 09:41:40"}
+[13-Jun-2025 06:18:14 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 06:18:14 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 0606060606
+[13-Jun-2025 06:18:14 Europe/Berlin] Querying table: students
+[13-Jun-2025 06:18:14 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 06:18:14 Europe/Berlin] Found user: {"student_id":17,"first_name":"rahul","last_name":"das","registration_no":"2022000","class_roll":"78","department":"History","session":"2022-2023","email":"try12@gmail.com","mobile":"0606060606","password":"$2y$10$R\/VnGLcFSsHYyE664I5dUOnvrPA0d\/fbfJL1\/4.8wRJoFcVgPFgXa","status":"active","approved":1,"created_at":"2025-06-13 09:46:33","updated_at":"2025-06-13 09:47:42"}
+[13-Jun-2025 06:26:12 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 06:26:12 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 4141414141
+[13-Jun-2025 06:26:12 Europe/Berlin] Querying table: students
+[13-Jun-2025 06:26:12 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 06:26:12 Europe/Berlin] Found user: {"student_id":18,"first_name":"dikkaram","last_name":"roy","registration_no":"23232387","class_roll":"2144","department":"History","session":"2022-2023","email":"desk223@gmail.com","mobile":"4141414141","password":"$2y$10$yYfpjBlDFRr66tQ3Pl6BwuhG6krqhjP2g\/pDCjj4EJTtzdYZRSDIG","status":"pending","approved":0,"created_at":"2025-06-13 09:55:36","updated_at":"2025-06-13 09:55:36"}
+[13-Jun-2025 06:26:12 Europe/Berlin] Student account not approved: 18
+[13-Jun-2025 06:26:12 Europe/Berlin] Login error: Your account is pending approval by your department. Please check back later.
+[13-Jun-2025 06:26:36 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 06:26:36 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 7878787878
+[13-Jun-2025 06:26:36 Europe/Berlin] Querying table: departments
+[13-Jun-2025 06:26:36 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 06:26:36 Europe/Berlin] Found user: {"department_id":11,"department":"History","hod_name":"Dr. Sakir Hussain Choudhury","hod_email":"exe123@gmail.com","hod_mobile":"7878787878","password":"$2y$10$pRK5KLXRavywGVi0H.4jNe0goTX2YF\/QbdTnI5eb1ym9NLBtUiQlG","approved":1,"created_at":"2025-06-13 09:41:40"}
+[13-Jun-2025 06:27:25 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 06:27:25 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[13-Jun-2025 06:27:25 Europe/Berlin] Querying table: admins
+[13-Jun-2025 06:27:25 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 06:27:25 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[13-Jun-2025 06:27:25 Europe/Berlin] Admin login successful - ID: 2
+[13-Jun-2025 06:28:23 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 06:28:23 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 4141414141
+[13-Jun-2025 06:28:23 Europe/Berlin] Querying table: students
+[13-Jun-2025 06:28:23 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 06:28:23 Europe/Berlin] Found user: {"student_id":18,"first_name":"dikkaram","last_name":"roy","registration_no":"23232387","class_roll":"2144","department":"History","session":"2022-2023","email":"desk223@gmail.com","mobile":"4141414141","password":"$2y$10$yYfpjBlDFRr66tQ3Pl6BwuhG6krqhjP2g\/pDCjj4EJTtzdYZRSDIG","status":"active","approved":1,"created_at":"2025-06-13 09:55:36","updated_at":"2025-06-13 09:56:42"}
+[13-Jun-2025 06:31:00 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 06:31:00 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 3232323232
+[13-Jun-2025 06:31:00 Europe/Berlin] Querying table: departments
+[13-Jun-2025 06:31:00 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 06:31:00 Europe/Berlin] Found user: {"department_id":10,"department":"Economics","hod_name":"Dr. Ritumoni Haloi","hod_email":"ex2311@gmail.com","hod_mobile":"3232323232","password":"$2y$10$.UQ6kI\/bwbgD66s.6mwRZO1A1EY2DZiPguReWf\/b68AFLSLYO\/s1G","approved":1,"created_at":"2025-06-12 23:13:47"}
+[13-Jun-2025 06:31:33 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 06:31:33 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 0505050505
+[13-Jun-2025 06:31:33 Europe/Berlin] Querying table: students
+[13-Jun-2025 06:31:33 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 06:31:33 Europe/Berlin] Found user: {"student_id":19,"first_name":"tarun","last_name":"das","registration_no":"22134312","class_roll":"5417","department":"Economics","session":"2022-2023","email":"san23@gmail.com","mobile":"0505050505","password":"$2y$10$8xYuHoWcqqKLs2hizbOqMeaParbl3rMvX3HV6UrXL2MKv51lqOEQ.","status":"active","approved":1,"created_at":"2025-06-13 10:00:16","updated_at":"2025-06-13 10:01:06"}
+[13-Jun-2025 06:35:57 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 06:35:57 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[13-Jun-2025 06:35:57 Europe/Berlin] Querying table: admins
+[13-Jun-2025 06:35:57 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 06:35:57 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[13-Jun-2025 06:35:57 Europe/Berlin] Admin login successful - ID: 2
+[13-Jun-2025 06:57:00 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 06:57:00 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[13-Jun-2025 06:57:00 Europe/Berlin] Querying table: admins
+[13-Jun-2025 06:57:00 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 06:57:00 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[13-Jun-2025 06:57:00 Europe/Berlin] Admin login successful - ID: 2
+[13-Jun-2025 07:10:25 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 07:10:25 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[13-Jun-2025 07:10:25 Europe/Berlin] Querying table: admins
+[13-Jun-2025 07:10:25 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 07:10:25 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[13-Jun-2025 07:10:25 Europe/Berlin] Admin login successful - ID: 2
+[13-Jun-2025 08:00:33 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 08:00:33 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[13-Jun-2025 08:00:33 Europe/Berlin] Querying table: admins
+[13-Jun-2025 08:00:33 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 08:00:33 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[13-Jun-2025 08:00:33 Europe/Berlin] Admin login successful - ID: 2
+[13-Jun-2025 08:01:52 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 08:01:52 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 1234567890
+[13-Jun-2025 08:01:52 Europe/Berlin] Querying table: students
+[13-Jun-2025 08:01:52 Europe/Berlin] Query result rows: 0
+[13-Jun-2025 08:01:52 Europe/Berlin] No user found with mobile/ID: 1234567890
+[13-Jun-2025 08:01:52 Europe/Berlin] Login error: User not found
+[13-Jun-2025 08:04:06 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 08:04:06 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[13-Jun-2025 08:04:06 Europe/Berlin] Querying table: admins
+[13-Jun-2025 08:04:06 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 08:04:06 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[13-Jun-2025 08:04:06 Europe/Berlin] Admin password mismatch
+[13-Jun-2025 08:04:06 Europe/Berlin] Login error: Invalid password
+[13-Jun-2025 08:04:20 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 08:04:20 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[13-Jun-2025 08:04:20 Europe/Berlin] Querying table: admins
+[13-Jun-2025 08:04:20 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 08:04:20 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[13-Jun-2025 08:04:20 Europe/Berlin] Admin login successful - ID: 2
+[13-Jun-2025 08:05:07 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 08:05:07 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[13-Jun-2025 08:05:07 Europe/Berlin] Querying table: admins
+[13-Jun-2025 08:05:07 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 08:05:07 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[13-Jun-2025 08:05:07 Europe/Berlin] Admin login successful - ID: 2
+[13-Jun-2025 08:05:32 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 08:05:32 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 8080808080
+[13-Jun-2025 08:05:32 Europe/Berlin] Querying table: departments
+[13-Jun-2025 08:05:32 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 08:05:32 Europe/Berlin] Found user: {"department_id":13,"department":"Mathematics","hod_name":"xyz","hod_email":"xyz@gmail.com","hod_mobile":"8080808080","password":"$2y$10$42PGKtQoa6LGbue\/lVlGX.Qw9cMtvLXwYYlEA0BYURjAcFOaIKZ.W","approved":1,"created_at":"2025-06-13 11:29:07"}
+[13-Jun-2025 08:06:47 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 08:06:47 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[13-Jun-2025 08:06:47 Europe/Berlin] Querying table: admins
+[13-Jun-2025 08:06:47 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 08:06:47 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[13-Jun-2025 08:06:47 Europe/Berlin] Admin login successful - ID: 2
+[13-Jun-2025 08:17:42 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 08:17:42 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 9696969696
+[13-Jun-2025 08:17:42 Europe/Berlin] Querying table: students
+[13-Jun-2025 08:17:42 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 08:17:42 Europe/Berlin] Found user: {"student_id":14,"first_name":"Md. Abdul","last_name":"Wahid","registration_no":"20220015433","class_roll":"1233","department":"Computer Science and Application","session":"2022-2023","email":"exanmple788@gmail.com","mobile":"9696969696","password":"$2y$10$z3tNGyuGYqzEoJ7eQ097geX7GQ0XsGIIziqHj\/hKZDpHpDZF7.7Eu","status":"active","approved":1,"created_at":"2025-06-13 09:09:12","updated_at":"2025-06-13 09:09:41"}
+[13-Jun-2025 08:18:36 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 08:18:36 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 8080808080
+[13-Jun-2025 08:18:36 Europe/Berlin] Querying table: students
+[13-Jun-2025 08:18:36 Europe/Berlin] Query result rows: 0
+[13-Jun-2025 08:18:36 Europe/Berlin] No user found with mobile/ID: 8080808080
+[13-Jun-2025 08:18:36 Europe/Berlin] Login error: User not found
+[13-Jun-2025 08:18:47 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 08:18:47 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 8080808080
+[13-Jun-2025 08:18:47 Europe/Berlin] Querying table: students
+[13-Jun-2025 08:18:47 Europe/Berlin] Query result rows: 0
+[13-Jun-2025 08:18:47 Europe/Berlin] No user found with mobile/ID: 8080808080
+[13-Jun-2025 08:18:47 Europe/Berlin] Login error: User not found
+[13-Jun-2025 08:19:24 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 08:19:24 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 8787878787
+[13-Jun-2025 08:19:24 Europe/Berlin] Querying table: students
+[13-Jun-2025 08:19:24 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 08:19:24 Europe/Berlin] Found user: {"student_id":20,"first_name":"ajay","last_name":"roy","registration_no":"7070","class_roll":"7070","department":"Mathematics","session":"2025-2026","email":"ajay@gmail.com","mobile":"8787878787","password":"$2y$10$UHQWilm8\/1VzfRbEmW96V..owW02f4XpFKhINAwZ\/HtMi5D\/Obuu2","status":"active","approved":1,"created_at":"2025-06-13 11:33:44","updated_at":"2025-06-13 11:35:40"}
+[13-Jun-2025 08:19:24 Europe/Berlin] Password verification failed
+[13-Jun-2025 08:19:24 Europe/Berlin] Login error: Invalid password
+[13-Jun-2025 08:20:05 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 08:20:05 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 8787878787
+[13-Jun-2025 08:20:05 Europe/Berlin] Querying table: students
+[13-Jun-2025 08:20:05 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 08:20:05 Europe/Berlin] Found user: {"student_id":20,"first_name":"ajay","last_name":"roy","registration_no":"7070","class_roll":"7070","department":"Mathematics","session":"2025-2026","email":"ajay@gmail.com","mobile":"8787878787","password":"$2y$10$UHQWilm8\/1VzfRbEmW96V..owW02f4XpFKhINAwZ\/HtMi5D\/Obuu2","status":"active","approved":1,"created_at":"2025-06-13 11:33:44","updated_at":"2025-06-13 11:35:40"}
+[13-Jun-2025 08:21:02 Europe/Berlin] === New Login Attempt ===
+[13-Jun-2025 08:21:02 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[13-Jun-2025 08:21:02 Europe/Berlin] Querying table: admins
+[13-Jun-2025 08:21:02 Europe/Berlin] Query result rows: 1
+[13-Jun-2025 08:21:02 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[13-Jun-2025 08:21:02 Europe/Berlin] Admin login successful - ID: 2
+[14-Dec-2025 05:31:59 Europe/Berlin] === New Login Attempt ===
+[14-Dec-2025 05:31:59 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: priyanka@gmail.com
+[14-Dec-2025 05:32:08 Europe/Berlin] === New Login Attempt ===
+[14-Dec-2025 05:32:08 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 8585858585
+[14-Dec-2025 05:32:08 Europe/Berlin] Querying table: students
+[14-Dec-2025 05:32:08 Europe/Berlin] Query result rows: 1
+[14-Dec-2025 05:32:08 Europe/Berlin] Found user: {"student_id":7,"first_name":"Priyanka","last_name":"Chanda","registration_no":"2022","class_roll":"1234","department":"Computer Science & Application","session":"2025-2026","email":"priyanka@gmail.com","mobile":"8585858585","password":"$2y$10$d8ZRE.ashnJ0sJA2Tos9kOR\/BFNp1l.Gmhem.InQxCi9r6dO8TUWS","status":"pending","approved":0,"created_at":"2025-12-14 10:01:53","updated_at":"2025-12-14 10:01:53"}
+[14-Dec-2025 05:32:08 Europe/Berlin] Student account not approved: 7
+[14-Dec-2025 05:32:08 Europe/Berlin] Login error: Your account is pending approval by your department. Please check back later.
+[14-Dec-2025 05:33:30 Europe/Berlin] === New Login Attempt ===
+[14-Dec-2025 05:33:30 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[14-Dec-2025 05:33:30 Europe/Berlin] Querying table: admins
+[14-Dec-2025 05:33:30 Europe/Berlin] Query result rows: 1
+[14-Dec-2025 05:33:30 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[14-Dec-2025 05:33:30 Europe/Berlin] Admin login successful - ID: 2
+[05-Jan-2026 06:25:56 Europe/Berlin] === New Login Attempt ===
+[05-Jan-2026 06:25:56 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[05-Jan-2026 06:25:56 Europe/Berlin] Querying table: admins
+[05-Jan-2026 06:25:56 Europe/Berlin] Query result rows: 1
+[05-Jan-2026 06:25:56 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[05-Jan-2026 06:25:56 Europe/Berlin] Admin login successful - ID: 2
+[05-Jan-2026 06:27:40 Europe/Berlin] === New Login Attempt ===
+[05-Jan-2026 06:27:40 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: sudip@gmail.com
+[05-Jan-2026 06:27:40 Europe/Berlin] Querying table: departments
+[05-Jan-2026 06:27:40 Europe/Berlin] Query result rows: 1
+[05-Jan-2026 06:27:40 Europe/Berlin] Found user: {"department_id":5,"department":"CS","hod_name":"Sudip","hod_email":"sudip@gmail.com","hod_mobile":"7575757575","password":"$2y$10$dI0Q06IEFa7sTglgIN62R.k1L5ACsocxWFUX4rwT6kTziGeKxe4z.","approved":1,"created_at":"2026-01-05 10:57:28"}
+[05-Jan-2026 06:27:59 Europe/Berlin] === New Login Attempt ===
+[05-Jan-2026 06:27:59 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[05-Jan-2026 06:27:59 Europe/Berlin] Querying table: admins
+[05-Jan-2026 06:27:59 Europe/Berlin] Query result rows: 1
+[05-Jan-2026 06:27:59 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[05-Jan-2026 06:27:59 Europe/Berlin] Admin login successful - ID: 2
+[11-Jan-2026 15:42:10 Europe/Berlin] === New Login Attempt ===
+[11-Jan-2026 15:42:10 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[11-Jan-2026 15:42:10 Europe/Berlin] Querying table: admins
+[11-Jan-2026 15:42:10 Europe/Berlin] Query result rows: 1
+[11-Jan-2026 15:42:10 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[11-Jan-2026 15:42:10 Europe/Berlin] Admin login successful - ID: 2
+[11-Jan-2026 15:45:05 Europe/Berlin] === New Login Attempt ===
+[11-Jan-2026 15:45:05 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: sudip@gmail.com
+[11-Jan-2026 15:45:05 Europe/Berlin] Querying table: departments
+[11-Jan-2026 15:45:05 Europe/Berlin] Query result rows: 1
+[11-Jan-2026 15:45:05 Europe/Berlin] Found user: {"department_id":5,"department":"CS","hod_name":"Sudip","hod_email":"sudip@gmail.com","hod_mobile":"7575757575","password":"$2y$10$dI0Q06IEFa7sTglgIN62R.k1L5ACsocxWFUX4rwT6kTziGeKxe4z.","approved":1,"created_at":"2026-01-05 10:57:28"}
+[11-Jan-2026 15:46:45 Europe/Berlin] === New Login Attempt ===
+[11-Jan-2026 15:46:45 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 8888888888
+[11-Jan-2026 15:46:45 Europe/Berlin] Querying table: students
+[11-Jan-2026 15:46:45 Europe/Berlin] Query result rows: 1
+[11-Jan-2026 15:46:45 Europe/Berlin] Found user: {"student_id":8,"first_name":"Aminul","last_name":"Islam","registration_no":"2222222222","class_roll":"1012","department":"CS","session":"2022-2023","email":"aminul@gmail.com","mobile":"8888888888","password":"$2y$10$p2MWSSmsoVi84j4wqEN2reJtuBU4GdCPA1bn52AJkKnF.qGILeyCK","status":"pending","approved":0,"created_at":"2026-01-11 20:16:30","updated_at":"2026-01-11 20:16:30"}
+[11-Jan-2026 15:46:45 Europe/Berlin] Student account not approved: 8
+[11-Jan-2026 15:46:45 Europe/Berlin] Login error: Your account is pending approval by your department. Please check back later.
+[11-Jan-2026 15:46:51 Europe/Berlin] === New Login Attempt ===
+[11-Jan-2026 15:46:51 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: sudip@gmail.com
+[11-Jan-2026 15:46:51 Europe/Berlin] Querying table: departments
+[11-Jan-2026 15:46:51 Europe/Berlin] Query result rows: 1
+[11-Jan-2026 15:46:51 Europe/Berlin] Found user: {"department_id":5,"department":"CS","hod_name":"Sudip","hod_email":"sudip@gmail.com","hod_mobile":"7575757575","password":"$2y$10$dI0Q06IEFa7sTglgIN62R.k1L5ACsocxWFUX4rwT6kTziGeKxe4z.","approved":1,"created_at":"2026-01-05 10:57:28"}
+[11-Jan-2026 15:48:46 Europe/Berlin] === New Login Attempt ===
+[11-Jan-2026 15:48:46 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 7777777777
+[11-Jan-2026 15:48:46 Europe/Berlin] Querying table: departments
+[11-Jan-2026 15:48:46 Europe/Berlin] Query result rows: 1
+[11-Jan-2026 15:48:46 Europe/Berlin] Found user: {"department_id":6,"department":"English","hod_name":"Rajib","hod_email":"rajib@gmail.com","hod_mobile":"7777777777","password":"$2y$10$MEm9FPpxyq2bgS2wOXHwre0sLBzrLljLXbsPihTayIbhu4w50ma\/O","approved":0,"created_at":"2026-01-11 20:18:32"}
+[11-Jan-2026 15:48:46 Europe/Berlin] Department not approved: 6
+[11-Jan-2026 15:48:46 Europe/Berlin] Login error: Your department account is pending approval by the administrator.
+[11-Jan-2026 15:48:55 Europe/Berlin] === New Login Attempt ===
+[11-Jan-2026 15:48:55 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 8888888888
+[11-Jan-2026 15:48:55 Europe/Berlin] Querying table: students
+[11-Jan-2026 15:48:55 Europe/Berlin] Query result rows: 1
+[11-Jan-2026 15:48:55 Europe/Berlin] Found user: {"student_id":8,"first_name":"Aminul","last_name":"Islam","registration_no":"2222222222","class_roll":"1012","department":"CS","session":"2022-2023","email":"aminul@gmail.com","mobile":"8888888888","password":"$2y$10$p2MWSSmsoVi84j4wqEN2reJtuBU4GdCPA1bn52AJkKnF.qGILeyCK","status":"active","approved":1,"created_at":"2026-01-11 20:16:30","updated_at":"2026-01-11 20:17:00"}
+[22-Jan-2026 14:45:12 Europe/Berlin] === New Login Attempt ===
+[22-Jan-2026 14:45:12 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[22-Jan-2026 14:45:12 Europe/Berlin] Querying table: admins
+[22-Jan-2026 14:45:12 Europe/Berlin] Query result rows: 1
+[22-Jan-2026 14:45:12 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[22-Jan-2026 14:45:12 Europe/Berlin] Admin login successful - ID: 2
+[22-Jan-2026 14:45:58 Europe/Berlin] === New Login Attempt ===
+[22-Jan-2026 14:45:58 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[22-Jan-2026 14:45:58 Europe/Berlin] Querying table: admins
+[22-Jan-2026 14:45:58 Europe/Berlin] Query result rows: 1
+[22-Jan-2026 14:45:58 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[22-Jan-2026 14:45:58 Europe/Berlin] Admin login successful - ID: 2
+[22-Jan-2026 14:48:01 Europe/Berlin] === New Login Attempt ===
+[22-Jan-2026 14:48:01 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 7878787878
+[22-Jan-2026 14:48:01 Europe/Berlin] Querying table: departments
+[22-Jan-2026 14:48:01 Europe/Berlin] Query result rows: 1
+[22-Jan-2026 14:48:01 Europe/Berlin] Found user: {"department_id":7,"department":"B.Com","hod_name":"Suben","hod_email":"ex@gmail.com","hod_mobile":"7878787878","password":"$2y$10$.xNiGFW3oYquTbjbOwEUmuDlL6t.tFvN.r7L5QAVKxyC8HwPFgO56","approved":0,"created_at":"2026-01-22 19:17:46"}
+[22-Jan-2026 14:48:01 Europe/Berlin] Department not approved: 7
+[22-Jan-2026 14:48:01 Europe/Berlin] Login error: Your department account is pending approval by the administrator.
+[22-Jan-2026 14:48:07 Europe/Berlin] === New Login Attempt ===
+[22-Jan-2026 14:48:07 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[22-Jan-2026 14:48:07 Europe/Berlin] Querying table: admins
+[22-Jan-2026 14:48:07 Europe/Berlin] Query result rows: 1
+[22-Jan-2026 14:48:07 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[22-Jan-2026 14:48:07 Europe/Berlin] Admin login successful - ID: 2
+[22-Jan-2026 14:48:28 Europe/Berlin] === New Login Attempt ===
+[22-Jan-2026 14:48:28 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 7878787878
+[22-Jan-2026 14:48:28 Europe/Berlin] Querying table: departments
+[22-Jan-2026 14:48:28 Europe/Berlin] Query result rows: 1
+[22-Jan-2026 14:48:28 Europe/Berlin] Found user: {"department_id":7,"department":"B.Com","hod_name":"Suben","hod_email":"ex@gmail.com","hod_mobile":"7878787878","password":"$2y$10$.xNiGFW3oYquTbjbOwEUmuDlL6t.tFvN.r7L5QAVKxyC8HwPFgO56","approved":1,"created_at":"2026-01-22 19:17:46"}
+[22-Jan-2026 14:52:09 Europe/Berlin] === New Login Attempt ===
+[22-Jan-2026 14:52:09 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 8787878787
+[22-Jan-2026 14:52:09 Europe/Berlin] Querying table: students
+[22-Jan-2026 14:52:09 Europe/Berlin] Query result rows: 1
+[22-Jan-2026 14:52:09 Europe/Berlin] Found user: {"student_id":9,"first_name":"Mahmudul","last_name":"Hassan","registration_no":"202666","class_roll":"2","department":"B.Com","session":"2022-2023","email":"es@gmail.com","mobile":"8787878787","password":"$2y$10$IfefuKBEkoqA9PcB8wo3xuvb.I4ThDVATAa5pbWRXYf4jcSzhr2Wu","status":"pending","approved":0,"created_at":"2026-01-22 19:21:53","updated_at":"2026-01-22 19:21:53"}
+[22-Jan-2026 14:52:09 Europe/Berlin] Student account not approved: 9
+[22-Jan-2026 14:52:09 Europe/Berlin] Login error: Your account is pending approval by your department. Please check back later.
+[22-Jan-2026 14:52:16 Europe/Berlin] === New Login Attempt ===
+[22-Jan-2026 14:52:16 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 7878787878
+[22-Jan-2026 14:52:16 Europe/Berlin] Querying table: departments
+[22-Jan-2026 14:52:16 Europe/Berlin] Query result rows: 1
+[22-Jan-2026 14:52:16 Europe/Berlin] Found user: {"department_id":7,"department":"B.Com","hod_name":"Suben","hod_email":"ex@gmail.com","hod_mobile":"7878787878","password":"$2y$10$.xNiGFW3oYquTbjbOwEUmuDlL6t.tFvN.r7L5QAVKxyC8HwPFgO56","approved":1,"created_at":"2026-01-22 19:17:46"}
+[22-Jan-2026 14:52:35 Europe/Berlin] === New Login Attempt ===
+[22-Jan-2026 14:52:35 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 8787878787
+[22-Jan-2026 14:52:35 Europe/Berlin] Querying table: students
+[22-Jan-2026 14:52:35 Europe/Berlin] Query result rows: 1
+[22-Jan-2026 14:52:35 Europe/Berlin] Found user: {"student_id":9,"first_name":"Mahmudul","last_name":"Hassan","registration_no":"202666","class_roll":"2","department":"B.Com","session":"2022-2023","email":"es@gmail.com","mobile":"8787878787","password":"$2y$10$IfefuKBEkoqA9PcB8wo3xuvb.I4ThDVATAa5pbWRXYf4jcSzhr2Wu","status":"active","approved":1,"created_at":"2026-01-22 19:21:53","updated_at":"2026-01-22 19:22:26"}
+[31-Jan-2026 07:13:53 Europe/Berlin] === New Login Attempt ===
+[31-Jan-2026 07:13:53 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 8787878787
+[31-Jan-2026 07:13:53 Europe/Berlin] Querying table: students
+[31-Jan-2026 07:13:53 Europe/Berlin] Query result rows: 1
+[31-Jan-2026 07:13:53 Europe/Berlin] Found user: {"student_id":9,"first_name":"Mahmudul","last_name":"Hassan","registration_no":"202666","class_roll":"2","department":"B.Com","session":"2022-2023","email":"es@gmail.com","mobile":"8787878787","password":"$2y$10$IfefuKBEkoqA9PcB8wo3xuvb.I4ThDVATAa5pbWRXYf4jcSzhr2Wu","status":"active","approved":1,"created_at":"2026-01-22 19:21:53","updated_at":"2026-01-22 19:22:26"}
+[28-Mar-2026 04:39:11 Europe/Berlin] === New Login Attempt ===
+[28-Mar-2026 04:39:11 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[28-Mar-2026 04:39:11 Europe/Berlin] Querying table: admins
+[28-Mar-2026 04:39:11 Europe/Berlin] Query result rows: 1
+[28-Mar-2026 04:39:11 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[28-Mar-2026 04:39:11 Europe/Berlin] Admin login successful - ID: 2
+[29-May-2026 12:49:12 Europe/Berlin] === New Login Attempt ===
+[29-May-2026 12:49:12 Europe/Berlin] Login attempt - User Type: student, User ID/Mobile: 1234567890
+[29-May-2026 12:49:12 Europe/Berlin] Querying table: students
+[29-May-2026 12:49:12 Europe/Berlin] Query result rows: 0
+[29-May-2026 12:49:12 Europe/Berlin] No user found with mobile/ID: 1234567890
+[29-May-2026 12:49:12 Europe/Berlin] Login error: User not found
+[29-May-2026 12:49:16 Europe/Berlin] === New Login Attempt ===
+[29-May-2026 12:49:16 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1234567890
+[29-May-2026 12:49:16 Europe/Berlin] Querying table: departments
+[29-May-2026 12:49:16 Europe/Berlin] Query result rows: 0
+[29-May-2026 12:49:16 Europe/Berlin] No user found with mobile/ID: 1234567890
+[29-May-2026 12:49:16 Europe/Berlin] Login error: User not found
+[29-May-2026 12:49:20 Europe/Berlin] === New Login Attempt ===
+[29-May-2026 12:49:20 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[29-May-2026 12:49:20 Europe/Berlin] Querying table: admins
+[29-May-2026 12:49:20 Europe/Berlin] Query result rows: 1
+[29-May-2026 12:49:20 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 17:09:41"}
+[29-May-2026 12:49:20 Europe/Berlin] Admin login successful - ID: 2
+[13-Aug-2026 17:52:28 Europe/Berlin] === New Login Attempt ===
+[13-Aug-2026 17:52:28 Europe/Berlin] Login attempt - User Type: admin, User ID/Mobile: 1234567890
+[13-Aug-2026 17:52:28 Europe/Berlin] Querying table: admins
+[13-Aug-2026 17:52:28 Europe/Berlin] Query result rows: 1
+[13-Aug-2026 17:52:28 Europe/Berlin] Found user: {"id":2,"admin_name":"Admin User","college":"Demo College","address":"Admin Address","email":"admin@example.com","mobile":"1234567890","password":"admin123","created_at":"2025-03-19 15:39:41"}
+[13-Aug-2026 17:52:28 Europe/Berlin] Admin login successful - ID: 2
+[13-Aug-2026 17:54:27 Europe/Berlin] === New Login Attempt ===
+[13-Aug-2026 17:54:27 Europe/Berlin] Login attempt - User Type: department, User ID/Mobile: 1234567890
+[13-Aug-2026 17:54:27 Europe/Berlin] Querying table: departments
+[13-Aug-2026 17:54:27 Europe/Berlin] Query result rows: 0
+[13-Aug-2026 17:54:27 Europe/Berlin] No user found with mobile/ID: 1234567890
+[13-Aug-2026 17:54:27 Europe/Berlin] Login error: User not found

@@ -1,0 +1,21 @@
+-- Create admins table if not exists
+CREATE TABLE IF NOT EXISTS admins (
+    id INT(11) AUTO_INCREMENT PRIMARY KEY,
+    admin_name VARCHAR(100) NOT NULL,
+    college VARCHAR(100) DEFAULT 'Demo College',
+    address TEXT,
+    email VARCHAR(100) NOT NULL,
+    mobile VARCHAR(20) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Delete any existing admin with mobile '1234567890' to avoid duplicates
+DELETE FROM admins WHERE mobile = '1234567890';
+
+-- Create new admin with plain text password
+INSERT INTO admins (admin_name, college, address, email, mobile, password) 
+VALUES ('Admin User', 'Demo College', 'Admin Address', 'admin@example.com', '1234567890', 'admin123');
+
+-- Show the new admin account
+SELECT * FROM admins; 
